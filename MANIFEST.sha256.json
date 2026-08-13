@@ -2,7 +2,7 @@
   "schema_version": 1,
   "algorithm": "sha256",
   "files": {
-    ".gitattributes": "fb7f5da9c2fd8bf4330a01b23361146a9940f1bb4c815556934e8903ce0e5b25",
+    ".gitattributes": "6fa90ae978b86115d9f81bf05c53c2568d6512691c32ea953efa168a4b34ffbd",
     ".github/workflows/verify.yml": "b21090bec6d110f745b3e13b2a05c7dccdc99e47d965307891899850bd82e528",
     ".gitignore": "bb5bcbb6aa9b8966c21c215bb479844a58d4a296b8d9ecd3689243553cf6256e",
     "CITATION.cff": "666aedca6af785e1488da833cf7c1911fc5f75351e22221fa1dd63aab3d8414c",
