@@ -3,7 +3,6 @@
   "algorithm": "sha256",
   "files": {
     ".gitattributes": "fb7f5da9c2fd8bf4330a01b23361146a9940f1bb4c815556934e8903ce0e5b25",
-    ".github/workflows/verify.yml": "8e7685d376f0861f833cf0b2ddc00d5dc77954348bd3fefbdbdad780622e7245",
     ".gitignore": "bb5bcbb6aa9b8966c21c215bb479844a58d4a296b8d9ecd3689243553cf6256e",
     "CITATION.cff": "666aedca6af785e1488da833cf7c1911fc5f75351e22221fa1dd63aab3d8414c",
     "data/frozen_correction_parameters.json": "5f9f4f2145f5aeed92660ac57ac6181aeeab5e171df1fb85a46489ee43fa7855",
