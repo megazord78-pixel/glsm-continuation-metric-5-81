@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "generator_sha256": "cfe201f3e79048144007b9823132f89e93147ddf8bce6bf9ce75354a1329e24e",
+    "central_certificate_sha256": "e3cea960c988a9bd91535f198e8bf5d5ecae515d5b74db806504142b6527d190",
+    "coverage_audit_sha256": "b0569f4594109699882f13eca22191d389dd481b2f4e8ca9b04093487cf57e96",
+    "physical_gate_sha256": "8e813bc59724d3f3d2cdf84b6a63c2d3a7d49aa5c68785716cd0a972a8f7de9e"
+  },
+  "claims": [
+    {
+      "id": "continuation_root_branch_exists_and_is_unique",
+      "admitted": true,
+      "verification_level": "exact rational Krawczyk replay over serialized interval bounds",
+      "evidence": {
+        "root_patch_count": 7,
+        "bridge_count": 7,
+        "componentwise_inclusions": 1162
+      },
+      "limitations": [
+        "The verifier replays serialized interval bounds; it is not a second scalar-formula implementation."
+      ]
+    },
+    {
+      "id": "corrected_metric_positive_on_depth_interval_1_49985_to_1_5",
+      "admitted": true,
+      "verification_level": "exact Fraction replay of serialized minor lower bounds",
+      "evidence": {
+        "metric_segment_count": 1003,
+        "depth_interval": [
+          {
+            "numerator": 29997,
+            "denominator": 20000
+          },
+          {
+            "numerator": 3,
+            "denominator": 2
+          }
+        ],
+        "independent_formula_stratified_patch_count": 6
+      },
+      "limitations": [
+        "The metric formula is independently rebuilt on the weakest segment of each of six patches, but not on all 1003 segments.",
+        "The six independent formula checks reuse the certified rational root boxes."
+      ]
+    },
+    {
+      "id": "local_depth_1_5_corrected_metric_positive",
+      "admitted": true,
+      "verification_level": "independent root, baseline, correction formulas plus exact entrywise Fraction determinants",
+      "evidence": {
+        "root_components": 83,
+        "minor_lowers": [
+          {
+            "numerator": 235099373217252037,
+            "denominator": 18446744073709551616
+          },
+          {
+            "numerator": 296731896827071650287521739600888128044759,
+            "denominator": 713623846352979940529142984724747568191373312
+          },
+          {
+            "numerator": 38686858745539252643431875011058904575975513932507337241875,
+            "denominator": 26328072917139296674479506920917608079723773850137277813577744384
+          }
+        ]
+      },
+      "limitations": [
+        "Local anisotropic box only."
+      ]
+    },
+    {
+      "id": "local_depth_1_5_correction_material_at_least_one_percent",
+      "admitted": true,
+      "verification_level": "independent correction/baseline formulas and fixed rational direction ensemble",
+      "evidence": {
+        "direction_count": 31,
+        "witnesses": [
+          "axis_0",
+          "pair_0_2_phase_2"
+        ],
+        "largest_lower": {
+          "numerator": 7568816278373741,
+          "denominator": 413272176438128128
+        }
+      },
+      "limitations": [
+        "Existence of a directional >1% correction is not a global Ricci or Monge-Ampere error bound."
+      ]
+    },
+    {
+      "id": "global_corrected_metric_positive_on_disclosed_path",
+      "admitted": false,
+      "verification_level": "not certified",
+      "evidence": {
+        "rigorous_covered_fraction": {
+          "numerator": 7501,
+          "denominator": 37500000
+        }
+      },
+      "limitations": [
+        "Two large uncovered intervals remain."
+      ]
+    },
+    {
+      "id": "ricci_flat_or_monge_ampere_accuracy_globally_bounded",
+      "admitted": false,
+      "verification_level": "not certified",
+      "evidence": {},
+      "limitations": [
+        "No global posterior Ricci/MA interval error bound."
+      ]
+    },
+    {
+      "id": "physical_string_vacuum_admissible",
+      "admitted": false,
+      "verification_level": "physical admission gate",
+      "evidence": {},
+      "limitations": [
+        "Global Pfaffians/open fields/uplift/normalization/KK bounds remain incomplete."
+      ]
+    },
+    {
+      "id": "versioned_publication_bundle_technically_ready",
+      "admitted": true,
+      "verification_level": "self-contained release manifest plus stdlib-only verifier",
+      "evidence": {
+        "package": "publication/glsm-continuation-metric-5-81-v1.0.0",
+        "license_present": true,
+        "citation_cff_present": true,
+        "provenance_unresolved_edges": 0
+      },
+      "limitations": [
+        "Technical readiness is not evidence of an externally executed CI run or a public immutable hosting record."
+      ]
+    },
+    {
+      "id": "externally_reproducible_versioned_publication_release",
+      "admitted": false,
+      "verification_level": "not admitted",
+      "evidence": {},
+      "limitations": [
+        "No Git history.",
+        "No selected license.",
+        "No CITATION.cff.",
+        "No externally executed CI history."
+      ]
+    }
+  ],
+  "summary": {
+    "claim_count": 9,
+    "admitted_claims": [
+      "continuation_root_branch_exists_and_is_unique",
+      "corrected_metric_positive_on_depth_interval_1_49985_to_1_5",
+      "local_depth_1_5_corrected_metric_positive",
+      "local_depth_1_5_correction_material_at_least_one_percent",
+      "versioned_publication_bundle_technically_ready"
+    ],
+    "rejected_claims": [
+      "global_corrected_metric_positive_on_disclosed_path",
+      "ricci_flat_or_monge_ampere_accuracy_globally_bounded",
+      "physical_string_vacuum_admissible",
+      "externally_reproducible_versioned_publication_release"
+    ]
+  },
+  "status": {
+    "claim_strengths_machine_separated": true,
+    "internal_local_and_continuation_theorems_admitted": true,
+    "global_metric_or_ricci_claim_admitted": false,
+    "physical_vacuum_claim_admitted": false,
+    "external_publication_release_admitted": false
+  }
+}

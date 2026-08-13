@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glsm-continuation-metric-5-81"
+version = "1.0.0"
+description = "Portable verifier for an interval-certified corrected GLSM metric continuation theorem"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "BSD-3-Clause"}
+authors = [
+  {name = "Evgeniy Agafonov", email = "my@eagafonov.ru"}
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: BSD License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Mathematics"
+]
+
+[project.scripts]
+verify-glsm-metric-certificate = "models.string_5_81_glsm_continuation_chain_independent_verifier:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["models*"]
+

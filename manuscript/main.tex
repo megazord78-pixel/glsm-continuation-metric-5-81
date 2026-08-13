@@ -1,0 +1,363 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=27mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,booktabs,microtype}
+\usepackage[hidelinks]{hyperref}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{remark}{Remark}
+\newcommand{\ddbar}{\partial\bar\partial}
+\newcommand{\Gc}{G_{\mathrm{corr}}}
+\newcommand{\Gzero}{G_0}
+\newcommand{\QQ}{\mathbb{Q}}
+
+\title{An Interval-Certified Positivity Theorem for a Corrected
+GLSM Metric along a Calabi--Yau Continuation Path}
+\author{Evgeniy Agafonov\\
+\small Independent Researcher, Sochi, Russia\\
+\small \href{mailto:my@eagafonov.ru}{my@eagafonov.ru}\\
+\small ORCID: \href{https://orcid.org/0009-0005-9059-5291}{0009-0005-9059-5291}}
+\date{13 August 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We give a computer-assisted proof of positive definiteness for a frozen
+corrected gauged-linear-sigma-model (GLSM) quotient metric along a connected
+one-parameter path on an explicit compact toric Calabi--Yau threefold with
+$(h^{2,1},h^{1,1})=(5,81)$.  A parameterized Krawczyk construction proves
+existence and local uniqueness of the implicit hypersurface--moment-map branch
+for $d\in[1.49985,1.5]$.  The branch is covered by seven root patches and seven
+uniqueness bridges, with every componentwise Krawczyk ratio below $0.85$.
+Positive definiteness of the corrected $3\times3$ Hermitian pullback metric is
+then established on 1003 exactly adjacent interval segments by rational lower
+bounds for its three leading principal minors.  A separate formula
+implementation reconstructs the weakest third-minor segment in each of six
+metric patches, and an independent 83-real endpoint construction recomputes
+the corrected determinants using exact rational interval arithmetic.  At the
+endpoint a fixed direction ensemble also proves a relative correction larger
+than $1.83\%$.  The result is a theorem about a specified frozen $\ddbar$
+ansatz on a one-dimensional path.  It is not a global Ricci-flat metric, a
+derivation of the physical $\alpha'$ correction, or a complete string vacuum.
+\end{abstract}
+
+\section{Introduction}
+
+Yau's theorem guarantees a Ricci-flat K\"ahler metric in each K\"ahler class
+of a compact Calabi--Yau manifold, but explicit metrics on compact
+threefolds are generally unavailable.  Numerical work based on balanced
+metrics and energy functionals made these metrics computationally accessible
+\cite{Donaldson2005,Douglas2008,Braun2008,Headrick2013}.  Machine-learning
+methods have subsequently enlarged the range of geometries and moduli that
+can be studied \cite{Ashmore2020,Anderson2021,Larfors2022}.  These methods
+measure approximation quality by sampled or integrated residuals; they do
+not ordinarily produce mathematically rigorous enclosures at every point of
+a parameter interval.
+
+Corrections to an internal Calabi--Yau metric are directly relevant to string
+compactifications.  In particular, Ref.~\cite{FraserTaliente2024} computes a
+leading $\alpha'^3$ correction to a numerically approximated quintic metric.
+That work is the closest physical antecedent to the present calculation, but
+its neural approximation and percent-level residual are not interval
+certificates.  Rigorous interval methods have entered nearby Calabi--Yau
+problems, for example the computer-assisted monodromy calculation for a toric
+K3 family in Ref.~\cite{Ishige2025}, but we found no previous interval proof
+of corrected-metric positivity on an explicit compact Calabi--Yau
+continuation branch.  To the best of our knowledge, the result below is the
+first computer-assisted interval-arithmetic positivity theorem for a
+nontrivially corrected GLSM quotient metric along a connected continuation
+path on an explicit compact Calabi--Yau threefold used in a
+string-compactification model.  This priority statement concerns the
+combination, not any individual GLSM, interval, or Krawczyk ingredient.
+
+The threefold is the $(5,81)$ example occurring in the explicit type-IIB
+compactifications of Ref.~\cite{Demirtas2021}.  The role of this provenance is
+to make the geometry non-toy and fully identifiable.  It does not imply that
+the local metric theorem below certifies the full vacuum constructed in that
+reference.
+
+The central distinction of this paper is between discovery and proof.  The
+correction coefficients were selected by a finite-sample approximation
+experiment and then frozen as exact binary rationals.  Their origin does not
+prove that the resulting tensor is positive.  Positivity follows only from a
+subsequent interval calculation on a Krawczyk-certified implicit branch.
+
+\section{Geometry and frozen metric ansatz}
+
+Let $Q\in\mathbb Z^{81\times85}$ be the disclosed GLSM charge matrix and let
+$r\in\mathbb R^{81}$ be the FI vector.  In a regular toric chart, write $z_i$
+for the Cox coordinates and solve the moment-map equations
+\begin{equation}\label{eq:moment}
+ QD=r,\qquad
+ D_i=|z_i|^2\exp((Q^Tu)_i),\qquad i=1,\ldots,85,
+\end{equation}
+for $u\in\mathbb R^{81}$.  With $D=\operatorname{diag}(D_i)$, the horizontal
+ambient quotient tensor is
+\begin{equation}\label{eq:quotient}
+ H=D-DQ^T(QDQ^T)^{-1}QD.
+\end{equation}
+The identities $Q[:,\text{divisor basis}]=I_{81}$ and $Q\,v_i=0$ fix the
+linear identification with the toric K\"ahler data.  If $A$ is the analytic
+tangent matrix obtained from the implicit hypersurface equation, the
+baseline pullback metric can equivalently be evaluated as
+\begin{equation}\label{eq:pullback}
+ \Gzero=A^*DA-(QDA)^*(QDQ^T)^{-1}(QDA).
+\end{equation}
+
+The correction is defined by a scalar function on the quotient.  Let
+\begin{equation}
+ S=\sum_{i=1}^{85}D_i,\qquad p_i=D_i/S,
+\end{equation}
+and let $S_0,p_i^{(0)}$ denote their values at the disclosed reference point.
+For the archived rational direction $v\in\QQ^{85}$ define
+\begin{equation}
+ q=\frac{S-S_0}{S+S_0},\qquad
+ s=\sum_{i=1}^{85}v_i\bigl(p_i-p_i^{(0)}\bigr)^2.
+\end{equation}
+The frozen correction potential is
+\begin{equation}\label{eq:correction}
+ \phi=c_1(\lambda_1q^2)^2+c_2(\lambda_2s)^2,
+ \qquad
+ \Gc=\Gzero+\ddbar\phi,
+\end{equation}
+where $c_1,c_2,\lambda_1,\lambda_2$, $v$, $S_0$, and all $p_i^{(0)}$ are
+serialized as reduced rational pairs.  In particular,
+\begin{equation}
+ c_1=-\frac{3704684168964555}{9007199254740992},\qquad
+ c_2=\frac{4163219474253507}{1125899906842624}.
+\end{equation}
+Because Eq.~\eqref{eq:correction} is a $\ddbar$ deformation of a scalar that
+is invariant under the complexified GLSM action, it preserves the local
+K\"ahler structure wherever the implicit quotient construction is regular.
+The theorem below addresses positive definiteness, not the size of a global
+Ricci or Monge--Amp\`ere residual.
+
+\section{Certified implicit branch}
+
+The parameter $d$ describes the disclosed affine continuation, and we set
+$t=d-3/2$.  At each parameter patch the coupled implicit system consists of
+the real and imaginary hypersurface equations and the 81 moment-map
+equations, hence 83 real unknowns.  Denote this system by
+\begin{equation}
+ F(t,x)=0,\qquad x\in\mathbb R^{83}.
+\end{equation}
+
+For a parameter interval $T$, center $x_0$, box
+$X=x_0+[-r_1,r_1]\times\cdots\times[-r_{83},r_{83}]$, and a midpoint inverse
+$C$, the parameterized Krawczyk image is
+\begin{equation}\label{eq:krawczyk}
+ K(T,X)=x_0-CF(T,x_0)+\bigl(I-CF_x(T,X)\bigr)(X-x_0).
+\end{equation}
+Strict componentwise inclusion $K(T,X)\subset\operatorname{int}X$ proves
+existence and uniqueness in the declared box for each $t\in T$; overlap
+bridges identify neighboring local branches \cite{Moore2009,Breiding2023}.
+
+The archived chain uses seven patches and seven bridges to cover
+\begin{equation}
+ t\in[-3/20000,0].
+\end{equation}
+The maximum exact-rational replayed image-to-radius ratios are
+\begin{equation}
+ q_{\rm patch}<0.849476916,
+ \qquad q_{\rm bridge}<0.829319820,
+\end{equation}
+and both are strictly below the preregistered threshold $17/20$.  Every patch
+and bridge contains 83 componentwise strict inequalities.  Overlap and an
+independent endpoint enclosure identify one base-anchored branch throughout
+the interval.
+
+\begin{proposition}[Certified continuation branch]\label{prop:branch}
+For every $d\in[1.49985,1.5]$ the disclosed 83-real implicit system has a
+solution in the corresponding archived Krawczyk box.  The solution is unique
+inside that box, and the overlap certificates identify these local solutions
+as one connected branch.
+\end{proposition}
+
+The proposition does not assert that no other branch exists outside the
+archived boxes.
+
+\section{Metric interval theorem}
+
+On each subinterval, interval implicit differentiation of the hypersurface
+and moment-map systems gives all six real first and second derivatives needed
+for the $3\times3$ Hermitian pullback tensor.  The inverse of $QDQ^T$ and the
+joint implicit Jacobian is enclosed through a scaled finite Neumann series
+with a rigorous geometric tail.  The metric is symmetrized by intersection
+with its Hermitian transpose, and Eq.~\eqref{eq:correction} is differentiated
+analytically with second-order interval jets.
+
+Let $\Delta_k(d)$ be the determinant of the leading $k\times k$ principal
+submatrix of $\Gc(d)$.  By the Hermitian Sylvester criterion,
+\begin{equation}\label{eq:sylvester}
+ \Gc(d)\succ0 \quad\Longleftrightarrow\quad
+ \Delta_1(d)>0,\ \Delta_2(d)>0,\ \Delta_3(d)>0.
+\end{equation}
+The metric layer consists of six patches and 1003 exactly adjacent segments.
+The portable verifier recomputes the connected union and the exact minimum
+serialized lower bounds displayed in Table~\ref{tab:central}.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lr}
+\toprule
+Certified quantity & Result\\
+\midrule
+Depth interval & $[29997/20000,\,3/2]$\\
+Metric patches / segments & $6 / 1003$\\
+Root patches / bridges & $7 / 7$\\
+Minimum lower bound for $\Delta_1$
+ & $7012202881170207/576460752303423488$\\
+Minimum lower bound for $\Delta_2$
+ & $3516194174689203/9223372036854775808$\\
+Minimum lower bound for $\Delta_3$
+ & $7217687928450223/302231454903657293676544$\\
+Maximum root-patch ratio & $4808980629275713/5661108081689003$\\
+Maximum root-bridge ratio & $5163879392018433/6226644134068241$\\
+\bottomrule
+\end{tabular}
+\caption{Exact rational outputs of the portable certificate replay.}
+\label{tab:central}
+\end{table}
+
+\begin{theorem}[Corrected-metric positivity on the continuation path]
+\label{thm:metric}
+Along the base-anchored branch of Proposition~\ref{prop:branch}, the frozen
+corrected pullback metric of Eq.~\eqref{eq:correction} is positive definite
+for every
+\begin{equation}
+ d\in[1.49985,1.5].
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+The six metric covers contain 1003 nondegenerate rational intervals.  Exact
+endpoint comparison shows adjacency within each patch, overlap between
+patches, and union $[29997/20000,3/2]$.  On every segment, interval evaluation
+gives strict positive rational lower bounds for $\Delta_1$, $\Delta_2$, and
+$\Delta_3$.  Their minima are the positive fractions in
+Table~\ref{tab:central}.  Proposition~\ref{prop:branch} identifies the
+implicit solution boxes with one branch.  Equation~\eqref{eq:sylvester} then
+proves positive definiteness at every parameter value on that branch.
+\end{proof}
+
+\section{Independent checks and correction materiality}
+
+Serialized replay can detect gaps, sign failures, and stale attachments, but
+it does not by itself detect a common formula error in the generator.  We
+therefore add two checks with deliberately different boundaries.
+
+First, a separate Arb implementation imports neither the primary metric
+generator nor its adapter.  Before reconstruction, the weakest serialized
+$\Delta_3$ segment is selected in each of the six metric patches.  The second
+implementation rebuilds Eq.~\eqref{eq:pullback}, the correction jets, and all
+three principal minors on these six segments.  All 18 independent lower
+bounds are positive and contain the corresponding primary lower bounds.
+These checks reuse the primary certified root boxes and are therefore a
+formula replication, not a second proof of the entire continuation chain.
+
+Second, at $d=1.5$ a separate 83-real Krawczyk box is constructed.  Its 83
+strict inclusions prove a locally unique root, and the continuation endpoint
+box lies componentwise inside this uniqueness box with maximum radius ratio
+$10^{-4}$.  Independent baseline and correction implementations serialize
+entrywise directed rational bounds.  A stdlib-only checker then adds the
+complex interval matrices and recomputes all three determinants by the
+Leibniz formula using exact \texttt{fractions.Fraction} arithmetic.  The
+resulting lower bounds are positive.
+
+To exclude a merely formal correction whose certified effect is
+indistinguishable from zero, a fixed ensemble of 31 Gaussian-integer
+directions is evaluated at the endpoint.  For two directions the rigorous
+lower bound on
+\begin{equation}
+ \frac{|v^*(\Gc-\Gzero)v|}{v^*\Gzero v}
+\end{equation}
+exceeds one percent.  The largest certified lower bound is
+\begin{equation}
+ \frac{7568816278373741}{413272176438128128}
+ =0.0183143620\ldots.
+\end{equation}
+This is an existence statement within a fixed finite direction ensemble, not
+an operator-norm estimate along the full path.
+
+\section{Reproducibility and proof architecture}
+
+The release separates the heavy generator layer from the portable review
+layer.  The heavy calculations use Arb midpoint-radius arithmetic
+\cite{Johansson2017}, analytic implicit derivatives, and exact rational
+serialization.  The public archive contains the resulting directed bounds,
+the six metric covers, root bridges, endpoint witnesses, independent formula
+checks, and their complete transitive SHA-256 provenance graph.  The graph
+contains 88 visited nodes and 226 resolved edges, with no unresolved or
+ambiguous proof edge.  Three failed diagnostics are retained in a historical
+manifest but excluded from proof traversal.
+
+The command
+\begin{verbatim}
+python verify_release.py
+\end{verbatim}
+requires only Python 3.11 or later.  It verifies the release manifest, checks
+the exact rational continuation and positivity inequalities, independently
+recomputes the endpoint determinants and materiality ratios, and runs
+mutation tests.  The mutations delete a metric segment, replace a positive
+minor by zero, and force equality in a bridge inclusion; every mutation must
+be rejected.
+
+The portable checker is intentionally not described as formal verification.
+It trusts the correctness of Python integer arithmetic, SHA-256, the
+serialized Arb enclosures, and the stated analytic formulas.  Conversely,
+the heavy generator is not needed for last-mile replay and cannot silently
+change after publication because every included byte is bound by the release
+manifest.
+
+\section{Scope, interpretation, and limitations}
+
+The strongest admitted conclusion is Theorem~\ref{thm:metric}.  Several
+nearby statements are not consequences of it.
+
+First, the parameter interval is one-dimensional and has length
+$1.5\times10^{-4}$.  Each metric evaluation reconstructs all transverse
+derivatives needed for a three-complex-dimensional pullback metric, but this
+does not prove positivity on an open six-real-dimensional tube.  Nor does it
+cover the entire compact hypersurface or all toric charts.
+
+Second, $\Gzero$ is a section-free GLSM quotient reference metric, not a
+certified Ricci-flat Calabi--Yau metric.  The correction of
+Eq.~\eqref{eq:correction} is a frozen gauge-invariant approximation ansatz.
+The theorem proves that this specified correction preserves positive
+definiteness on the declared path.  It does not derive the ansatz from the
+ten-dimensional effective action, bound omitted $\alpha'$ terms, or certify
+a global Ricci/Monge--Amp\`ere error.
+
+Third, the phrase ``the $(5,81)$ model'' identifies an explicit geometry from
+a realistic compactification program.  The result does not certify mobile
+D3 fields, Pfaffians, uplift, a 113-field mass matrix, or phenomenology.
+Accordingly, neither ``full physical vacuum'' nor ``global corrected
+Calabi--Yau metric'' is an admissible description of this theorem.
+
+\section{Conclusion}
+
+We have exhibited a reviewer-replayable computer-assisted theorem in a regime
+where numerical Calabi--Yau work has usually relied on sampled accuracy.  A
+Krawczyk-certified 83-real branch, a gap-free 1003-segment metric cover,
+strict Sylvester bounds, stratified formula replication, and an independent
+endpoint determinant calculation together prove that a nonzero frozen
+correction preserves metric positivity throughout a connected path on the
+explicit $(5,81)$ geometry.  The natural next mathematical extension is an
+open tubular neighborhood and then multi-chart coverage.  Those extensions
+are separate results and are not assumed here.
+
+\section*{Data and code availability}
+
+The versioned release contains the manuscript, exact proof records, portable
+checker, mutation tests, trust model, and SHA-256 manifest.  Code is released
+under the BSD 3-Clause License.  The repository and archival DOI will be
+inserted in the citation metadata when the immutable public release is
+created.
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}
+

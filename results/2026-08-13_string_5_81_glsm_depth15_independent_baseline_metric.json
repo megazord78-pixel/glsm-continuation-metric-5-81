@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "generator_sha256": "fb1b4a43d45e0688db5c72f3bfde3d29dd457d157303eb93eadb866b4ea7c754",
+    "adapter_sha256": "28df82de6979bbb5b3258588d2276853c987cc78a12da62eaa4719a72b381819",
+    "atlas_sha256": "0c42e82338891245764bbe2fa8c4bd045e06adac0504610c2b44bae256ca9203",
+    "nested_box_sha256": "c2951c5258f916e1c2ae0389bc1baf9f2219a594cb5d7ce814a715a4846639f9",
+    "independent_joint_root_sha256": "b7d9c0ee7b0c3bb56cf0f138bceb68416b49987f598edde55dd62191bf63e2ba",
+    "fraction_interval_helper_sha256": "212a33275cfaf333aac7b177616e0baa20dcd6c3ed33d71a744334bfdc2693dd"
+  },
+  "protocol": {
+    "metric_formula": "A^* D A - (Q D A)^* (Q D Q^T)^-1 (Q D A)",
+    "neumann_order": 20,
+    "imports_primary_metric_generator": false,
+    "uses_independent_joint_root_image": true,
+    "arb_precision_decimal_digits": 100
+  },
+  "baseline_metric_entry_directed_rational_bounds": [
+    [
+      {
+        "real": {
+          "lower": {
+            "numerator": 7448684255454161,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 7452376216462291,
+            "denominator": 576460752303423488
+          }
+        },
+        "imag": {
+          "lower": {
+            "numerator": -5241135345696769,
+            "denominator": 37778931862957161709568
+          },
+          "upper": {
+            "numerator": 5241135345696769,
+            "denominator": 37778931862957161709568
+          }
+        }
+      },
+      {
+        "real": {
+          "lower": {
+            "numerator": -6977226599679515,
+            "denominator": 4611686018427387904
+          },
+          "upper": {
+            "numerator": -6949721709037081,
+            "denominator": 4611686018427387904
+          }
+        },
+        "imag": {
+          "lower": {
+            "numerator": -1467975072687359,
+            "denominator": 9223372036854775808
+          },
+          "upper": {
+            "numerator": -2925653996456445,
+            "denominator": 18446744073709551616
+          }
+        }
+      },
+      {
+        "real": {
+          "lower": {
+            "numerator": 8054698766430811,
+            "denominator": 1152921504606846976
+          },
+          "upper": {
+            "numerator": 8061409142395485,
+            "denominator": 1152921504606846976
+          }
+        },
+        "imag": {
+          "lower": {
+            "numerator": 4735203682975839,
+            "denominator": 1152921504606846976
+          },
+          "upper": {
+            "numerator": 4737127500408929,
+            "denominator": 1152921504606846976
+          }
+        }
+      }
+    ],
+    [
+      {
+        "real": {
+          "lower": {
+            "numerator": -6977226599679515,
+            "denominator": 4611686018427387904
+          },
+          "upper": {
+            "numerator": -6949721709037081,
+            "denominator": 4611686018427387904
+          }
+        },
+        "imag": {
+          "lower": {
+            "numerator": 2925653996456445,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 1467975072687359,
+            "denominator": 9223372036854775808
+          }
+        }
+      },
+      {
+        "real": {
+          "lower": {
+            "numerator": 4734598372548307,
+            "denominator": 144115188075855872
+          },
+          "upper": {
+            "numerator": 4735465464462037,
+            "denominator": 144115188075855872
+          }
+        },
+        "imag": {
+          "lower": {
+            "numerator": -7972245137784833,
+            "denominator": 18889465931478580854784
+          },
+          "upper": {
+            "numerator": 7972245137784833,
+            "denominator": 18889465931478580854784
+          }
+        }
+      },
+      {
+        "real": {
+          "lower": {
+            "numerator": -5410086007846469,
+            "denominator": 2305843009213693952
+          },
+          "upper": {
+            "numerator": -5396797198513731,
+            "denominator": 2305843009213693952
+          }
+        },
+        "imag": {
+          "lower": {
+            "numerator": -6127191651559553,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": -6126064086681727,
+            "denominator": 576460752303423488
+          }
+        }
+      }
+    ],
+    [
+      {
+        "real": {
+          "lower": {
+            "numerator": 8054698766430811,
+            "denominator": 1152921504606846976
+          },
+          "upper": {
+            "numerator": 8061409142395485,
+            "denominator": 1152921504606846976
+          }
+        },
+        "imag": {
+          "lower": {
+            "numerator": -4737127500408929,
+            "denominator": 1152921504606846976
+          },
+          "upper": {
+            "numerator": -4735203682975839,
+            "denominator": 1152921504606846976
+          }
+        }
+      },
+      {
+        "real": {
+          "lower": {
+            "numerator": -5410086007846469,
+            "denominator": 2305843009213693952
+          },
+          "upper": {
+            "numerator": -5396797198513731,
+            "denominator": 2305843009213693952
+          }
+        },
+        "imag": {
+          "lower": {
+            "numerator": 6126064086681727,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 6127191651559553,
+            "denominator": 576460752303423488
+          }
+        }
+      },
+      {
+        "real": {
+          "lower": {
+            "numerator": 3482683236400975,
+            "denominator": 288230376151711744
+          },
+          "upper": {
+            "numerator": 217777940680693,
+            "denominator": 18014398509481984
+          }
+        },
+        "imag": {
+          "lower": {
+            "numerator": -7106716760014849,
+            "denominator": 4722366482869645213696
+          },
+          "upper": {
+            "numerator": 7106716760014849,
+            "denominator": 4722366482869645213696
+          }
+        }
+      }
+    ]
+  ],
+  "leading_principal_minor_lower_bounds": [
+    {
+      "dimension": 1,
+      "real_lower": {
+        "numerator": 7448684255454161,
+        "denominator": 576460752303423488
+      },
+      "real_lower_float": 0.012921407443075157,
+      "strictly_positive": true
+    },
+    {
+      "dimension": 2,
+      "real_lower": {
+        "numerator": 3894025041103705,
+        "denominator": 9223372036854775808
+      },
+      "real_lower_float": 0.00042219104092775927,
+      "strictly_positive": true
+    },
+    {
+      "dimension": 3,
+      "real_lower": {
+        "numerator": 3705947718659379,
+        "denominator": 2361183241434822606848
+      },
+      "real_lower_float": 1.5695299092532022e-06,
+      "strictly_positive": true
+    }
+  ],
+  "entrywise_fraction_interval_minor_enclosures": [
+    {
+      "dimension": 1,
+      "real_lower": {
+        "numerator": 7448684255454161,
+        "denominator": 576460752303423488
+      },
+      "real_upper": {
+        "numerator": 7452376216462291,
+        "denominator": 576460752303423488
+      },
+      "imaginary_lower": {
+        "numerator": -5241135345696769,
+        "denominator": 37778931862957161709568
+      },
+      "imaginary_upper": {
+        "numerator": 5241135345696769,
+        "denominator": 37778931862957161709568
+      },
+      "strictly_positive": true
+    },
+    {
+      "dimension": 2,
+      "real_lower": {
+        "numerator": 301285608272966578511850337683485606543359,
+        "denominator": 713623846352979940529142984724747568191373312
+      },
+      "real_upper": {
+        "numerator": 301504247163358300892402253624441976127489,
+        "denominator": 713623846352979940529142984724747568191373312
+      },
+      "imaginary_lower": {
+        "numerator": -128546070644003732416698108634109,
+        "denominator": 10889035741470030830827987437816582766592
+      },
+      "imaginary_upper": {
+        "numerator": 128546070644003732416698108634109,
+        "denominator": 10889035741470030830827987437816582766592
+      },
+      "strictly_positive": true
+    },
+    {
+      "dimension": 3,
+      "real_lower": {
+        "numerator": 322645721706067598222861410688586641432174700650088288445,
+        "denominator": 205688069665150755269371147819668813122841983204197482918576128
+      },
+      "real_upper": {
+        "numerator": 81309414406568915712533796600226888565828216587515956177,
+        "denominator": 51422017416287688817342786954917203280710495801049370729644032
+      },
+      "imaginary_lower": {
+        "numerator": -13057510799343779928390083860891474592669266398786688647169,
+        "denominator": 3369993333393829974333376885877453834204643052817571560137951281152
+      },
+      "imaginary_upper": {
+        "numerator": 13057524686023858425779237504261283379380793702234237960193,
+        "denominator": 3369993333393829974333376885877453834204643052817571560137951281152
+      },
+      "strictly_positive": true
+    }
+  ],
+  "comparison": {
+    "component_count": 18,
+    "overlapping_component_count": 18,
+    "all_components_overlap_primary": true,
+    "contained_by_primary_component_count": 18,
+    "all_components_contained_by_primary": true
+  },
+  "neumann": {
+    "infinity_norm_remainder_upper": 2.1561927496804856e-05,
+    "inverse_tail_entry_radius_upper": 4.269530029026357e-98
+  },
+  "status": {
+    "independent_baseline_interval_reimplementation_completed": true,
+    "all_three_independent_baseline_minors_positive": true,
+    "all_three_entrywise_fraction_interval_baseline_minors_positive": true,
+    "independent_baseline_crosscheck_passed": true,
+    "primary_baseline_metric_enclosure_reused": false,
+    "global_baseline_positivity_certified": false
+  },
+  "scope": [
+    "The quotient metric is independently rebuilt on the local joint-root image.",
+    "The rational center and raw geometry are common disclosed inputs.",
+    "This is a local interval theorem, not global positivity."
+  ]
+}

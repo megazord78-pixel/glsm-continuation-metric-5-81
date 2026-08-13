@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "role": "immutable history of failed or superseded diagnostics excluded from publication proof traversal",
+  "records": [
+    {
+      "artifact": "results/2026-08-13_string_5_81_glsm_depth15_interval_bottleneck_audit.json",
+      "artifact_sha256": "ae5894403deaa9ae659311d682a0c3373bd80e2d1bb58c1444af7148be2f1a44",
+      "incoming_diagnostic_reference": {
+        "source": "results/2026-08-13_string_5_81_glsm_depth15_material_interval_box.json",
+        "field": "inputs.anisotropic_bottleneck_audit_sha256",
+        "sha256": "ae5894403deaa9ae659311d682a0c3373bd80e2d1bb58c1444af7148be2f1a44"
+      },
+      "incoming_reference_matches_artifact": true,
+      "historical_internal_sha256_records": [
+        {
+          "field": "inputs.depth15_material_box_sha256",
+          "historical_sha256": "d9b7534cdfe69122c9974b76b57e1832c8d978ef3168b376f7ab33320a4bffb3"
+        }
+      ],
+      "publication_proof_input": false
+    },
+    {
+      "artifact": "results/2026-08-13_string_5_81_glsm_affine_path_metric_maximal_root_attempt.json",
+      "artifact_sha256": "a687e8ab04f02fae3257abe53aec22f32cc1ccaab1bd4eb1b319ec99e0a76b1c",
+      "incoming_diagnostic_reference": {
+        "source": "results/2026-08-13_string_5_81_glsm_affine_path_metric_connected_cover.json",
+        "field": "inputs.maximal_5e_5_attempt_sha256",
+        "sha256": "a687e8ab04f02fae3257abe53aec22f32cc1ccaab1bd4eb1b319ec99e0a76b1c"
+      },
+      "incoming_reference_matches_artifact": true,
+      "historical_internal_sha256_records": [
+        {
+          "field": "inputs.cover_generator_sha256",
+          "historical_sha256": "8d001b9beff87798438f96184edfd98443bdfacb766ed2a560a06b8cff6627c7"
+        },
+        {
+          "field": "inputs.metric_generator_sha256",
+          "historical_sha256": "e5969de3244158585b21f5a503d83885bc4b737c70dd92c7ab3f59a2a7956840"
+        }
+      ],
+      "publication_proof_input": false
+    },
+    {
+      "artifact": "results/2026-08-13_string_5_81_glsm_local_tangent_root_radius_5e5_attempt.json",
+      "artifact_sha256": "6882402949614f28ccb505ff03d0d53400105cc5c268267f07bb880c641f1def",
+      "incoming_diagnostic_reference": {
+        "source": "results/2026-08-13_string_5_81_glsm_local_tangent_root_patch.json",
+        "field": "inputs.failed_5e_5_attempt_sha256",
+        "sha256": "6882402949614f28ccb505ff03d0d53400105cc5c268267f07bb880c641f1def"
+      },
+      "incoming_reference_matches_artifact": true,
+      "historical_internal_sha256_records": [
+        {
+          "field": "inputs.generator_sha256",
+          "historical_sha256": "7c35cfb878626a862f3a0c487ac10b45c587e075c2ffcc42f714a95ce817d058"
+        },
+        {
+          "field": "inputs.source_patch_sha256",
+          "historical_sha256": "30b8532a5f0ed58ae2d25c06c604b4d65a4afc1982dd9f04f59f08498db46c74"
+        },
+        {
+          "field": "inputs.source_branch_glue_sha256",
+          "historical_sha256": "81c511de90747afbfd0747d20afe5afc1e15fb4477f184e138b15739aa2e4a58"
+        }
+      ],
+      "publication_proof_input": false
+    }
+  ],
+  "status": {
+    "historical_artifact_count": 3,
+    "historical_internal_sha256_record_count": 6,
+    "all_incoming_references_match_current_artifact_bytes": true,
+    "diagnostic_artifacts_are_publication_entrypoints": false,
+    "diagnostic_artifacts_are_publication_proof_inputs": false
+  }
+}

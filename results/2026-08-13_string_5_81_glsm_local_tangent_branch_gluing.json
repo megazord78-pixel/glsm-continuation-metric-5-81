@@ -1,0 +1,1704 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "generator_sha256": "0d4904ed70a06fdba36df8757c417a01c5069c8a0da67a9a663324a7eafb6634",
+    "source_patch_sha256": "bfa58bcfdab1935c1ce9398043e33f096b2b3442a1be788dc04dcbb9b7471e82",
+    "local_tangent_patch_sha256": "4940aab87e6645482c8e2b7da6324d8eb4f8132d0286e2ffc595e04b9c8ef9c4"
+  },
+  "protocol": {
+    "t_interval": [
+      {
+        "numerator": -81,
+        "denominator": 1000000
+      },
+      {
+        "numerator": -79,
+        "denominator": 1000000
+      }
+    ],
+    "local_tangent_patch_radius": {
+      "numerator": 3,
+      "denominator": 100000
+    },
+    "bridge_center_rational_pairs": [
+      {
+        "numerator": 30731248956924928072342603485080468909,
+        "denominator": 4676805239458889338251791464692105662898984137523200000
+      },
+      {
+        "numerator": 6641568386695608892195838546915813178993,
+        "denominator": 74828883831342229412028663435073690606383746200371200000
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": -6229792466312685487507756690386618441,
+        "denominator": 233840261972944466912589573234605283144949206876160000
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      }
+    ],
+    "bridge_radius_rational_pairs": [
+      {
+        "numerator": 68582082892715774493,
+        "denominator": 604462909807314587353088000000
+      },
+      {
+        "numerator": 23591803844309760427,
+        "denominator": 302231454903657293676544000000
+      },
+      {
+        "numerator": 4928012428123041,
+        "denominator": 1237940039285380274899124224
+      },
+      {
+        "numerator": 97462209693151,
+        "denominator": 9671406556917033397649408
+      },
+      {
+        "numerator": 1611885890922173,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 3569106197380879,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 8531212078446999,
+        "denominator": 618970019642690137449562112
+      },
+      {
+        "numerator": 4616066691541051,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 5206300619541847,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 2865660298873107,
+        "denominator": 618970019642690137449562112
+      },
+      {
+        "numerator": 1348850742965053,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 5392531795888997,
+        "denominator": 1237940039285380274899124224
+      },
+      {
+        "numerator": 1350654576909011,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 5405638270918107,
+        "denominator": 1237940039285380274899124224
+      },
+      {
+        "numerator": 1438149751277263,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 2039560995258817,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 867968600589181,
+        "denominator": 38685626227668133590597632
+      },
+      {
+        "numerator": 3523580017190223,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 547792030694215,
+        "denominator": 38685626227668133590597632
+      },
+      {
+        "numerator": 4699729412623471,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 549177847390543,
+        "denominator": 38685626227668133590597632
+      },
+      {
+        "numerator": 7724564951651129,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 4903473409644731,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 4839429171944741,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 4647426300330271,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 2430978369917503,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 1373028905786959,
+        "denominator": 77371252455336267181195264
+      },
+      {
+        "numerator": 2436832864767091,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 712232359044773,
+        "denominator": 38685626227668133590597632
+      },
+      {
+        "numerator": 8894214085802401,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 1124748886667281,
+        "denominator": 38685626227668133590597632
+      },
+      {
+        "numerator": 4331420991308397,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 1228176925163663,
+        "denominator": 38685626227668133590597632
+      },
+      {
+        "numerator": 2363986223471557,
+        "denominator": 77371252455336267181195264
+      },
+      {
+        "numerator": 328765698052711,
+        "denominator": 9671406556917033397649408
+      },
+      {
+        "numerator": 5778148241092425,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 1525024440153263,
+        "denominator": 77371252455336267181195264
+      },
+      {
+        "numerator": 5494379564098549,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 6130078130612211,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 6770825424068449,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 7085729208018831,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 6316023377811345,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 176437152917449,
+        "denominator": 4835703278458516698824704
+      },
+      {
+        "numerator": 6833612683648551,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 6237439861925665,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 7071477140349195,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 2954088582745357,
+        "denominator": 77371252455336267181195264
+      },
+      {
+        "numerator": 805612486644709,
+        "denominator": 19342813113834066795298816
+      },
+      {
+        "numerator": 934723491273091,
+        "denominator": 38685626227668133590597632
+      },
+      {
+        "numerator": 3896749124278825,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 807053556723809479,
+        "denominator": 3777893186295716170956800000
+      },
+      {
+        "numerator": 1254426083601369,
+        "denominator": 38685626227668133590597632
+      },
+      {
+        "numerator": 335153416366809,
+        "denominator": 9671406556917033397649408
+      },
+      {
+        "numerator": 5518534052559119,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 2814222672465679,
+        "denominator": 77371252455336267181195264
+      },
+      {
+        "numerator": 5726008359733921,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 6229287403058315,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 6416351499700831,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 3406433560363475,
+        "denominator": 77371252455336267181195264
+      },
+      {
+        "numerator": 3190421022449527,
+        "denominator": 77371252455336267181195264
+      },
+      {
+        "numerator": 3132738551891781,
+        "denominator": 77371252455336267181195264
+      },
+      {
+        "numerator": 3386543029959049,
+        "denominator": 77371252455336267181195264
+      },
+      {
+        "numerator": 6482699708421621,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 241084524190113,
+        "denominator": 4835703278458516698824704
+      },
+      {
+        "numerator": 7576382269306415,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 7141192894162809,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 7494291405337649,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 3586477876983407,
+        "denominator": 77371252455336267181195264
+      },
+      {
+        "numerator": 8414446867312899,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 1012147254876041,
+        "denominator": 19342813113834066795298816
+      },
+      {
+        "numerator": 8987250905601191,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 4361010293160513,
+        "denominator": 77371252455336267181195264
+      },
+      {
+        "numerator": 4563845952486685,
+        "denominator": 77371252455336267181195264
+      },
+      {
+        "numerator": 4830059939612323,
+        "denominator": 77371252455336267181195264
+      },
+      {
+        "numerator": 719233268240677,
+        "denominator": 154742504910672534362390528
+      },
+      {
+        "numerator": 2570136856370557,
+        "denominator": 618970019642690137449562112
+      },
+      {
+        "numerator": 5504028581603187,
+        "denominator": 1237940039285380274899124224
+      },
+      {
+        "numerator": 4564877614380305,
+        "denominator": 1237940039285380274899124224
+      },
+      {
+        "numerator": 934950799512105,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 1977461889403183,
+        "denominator": 618970019642690137449562112
+      },
+      {
+        "numerator": 4570702596657319,
+        "denominator": 1237940039285380274899124224
+      },
+      {
+        "numerator": 1379432872325093,
+        "denominator": 309485009821345068724781056
+      },
+      {
+        "numerator": 1443878645647921,
+        "denominator": 309485009821345068724781056
+      }
+    ],
+    "source_box_affine_coordinate_transform_bounded_at_both_interval_endpoints": true,
+    "arb_precision_decimal_digits": 100
+  },
+  "krawczyk": {
+    "component_records": [
+      {
+        "index": 0,
+        "image_abs_upper_rational": {
+          "numerator": 7170075119321089,
+          "denominator": 158456325028528675187087900672
+        },
+        "target_radius_rational": {
+          "numerator": 68582082892715774493,
+          "denominator": 604462909807314587353088000000
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 1,
+        "image_abs_upper_rational": {
+          "numerator": 4837473532248065,
+          "denominator": 158456325028528675187087900672
+        },
+        "target_radius_rational": {
+          "numerator": 23591803844309760427,
+          "denominator": 302231454903657293676544000000
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 2,
+        "image_abs_upper_rational": {
+          "numerator": 4802352919079425,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 4928012428123041,
+          "denominator": 1237940039285380274899124224
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 3,
+        "image_abs_upper_rational": {
+          "numerator": 5245013232238593,
+          "denominator": 19807040628566084398385987584
+        },
+        "target_radius_rational": {
+          "numerator": 97462209693151,
+          "denominator": 9671406556917033397649408
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 4,
+        "image_abs_upper_rational": {
+          "numerator": 5992993398034433,
+          "denominator": 19807040628566084398385987584
+        },
+        "target_radius_rational": {
+          "numerator": 1611885890922173,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 5,
+        "image_abs_upper_rational": {
+          "numerator": 6728728545253377,
+          "denominator": 19807040628566084398385987584
+        },
+        "target_radius_rational": {
+          "numerator": 3569106197380879,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 6,
+        "image_abs_upper_rational": {
+          "numerator": 8931679640719721,
+          "denominator": 19807040628566084398385987584
+        },
+        "target_radius_rational": {
+          "numerator": 8531212078446999,
+          "denominator": 618970019642690137449562112
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 7,
+        "image_abs_upper_rational": {
+          "numerator": 4840436982503841,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 4616066691541051,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 8,
+        "image_abs_upper_rational": {
+          "numerator": 5228213005135233,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 5206300619541847,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 9,
+        "image_abs_upper_rational": {
+          "numerator": 5380385881839617,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 2865660298873107,
+          "denominator": 618970019642690137449562112
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 10,
+        "image_abs_upper_rational": {
+          "numerator": 5378556449390593,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 1348850742965053,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 11,
+        "image_abs_upper_rational": {
+          "numerator": 5375702937221121,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 5392531795888997,
+          "denominator": 1237940039285380274899124224
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 12,
+        "image_abs_upper_rational": {
+          "numerator": 5386817112135681,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 1350654576909011,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 13,
+        "image_abs_upper_rational": {
+          "numerator": 5394082288582657,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 5405638270918107,
+          "denominator": 1237940039285380274899124224
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 14,
+        "image_abs_upper_rational": {
+          "numerator": 5397024193187841,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 1438149751277263,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 15,
+        "image_abs_upper_rational": {
+          "numerator": 6566968670322689,
+          "denominator": 19807040628566084398385987584
+        },
+        "target_radius_rational": {
+          "numerator": 2039560995258817,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 16,
+        "image_abs_upper_rational": {
+          "numerator": 5704318538874881,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 867968600589181,
+          "denominator": 38685626227668133590597632
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 17,
+        "image_abs_upper_rational": {
+          "numerator": 5814693952569345,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 3523580017190223,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 18,
+        "image_abs_upper_rational": {
+          "numerator": 7666777369489409,
+          "denominator": 19807040628566084398385987584
+        },
+        "target_radius_rational": {
+          "numerator": 547792030694215,
+          "denominator": 38685626227668133590597632
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 19,
+        "image_abs_upper_rational": {
+          "numerator": 8344455466201089,
+          "denominator": 19807040628566084398385987584
+        },
+        "target_radius_rational": {
+          "numerator": 4699729412623471,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 20,
+        "image_abs_upper_rational": {
+          "numerator": 7920503055136769,
+          "denominator": 19807040628566084398385987584
+        },
+        "target_radius_rational": {
+          "numerator": 549177847390543,
+          "denominator": 38685626227668133590597632
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 21,
+        "image_abs_upper_rational": {
+          "numerator": 6945269192683521,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 7724564951651129,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 22,
+        "image_abs_upper_rational": {
+          "numerator": 4505028368581633,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 4903473409644731,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 23,
+        "image_abs_upper_rational": {
+          "numerator": 8620890119733249,
+          "denominator": 19807040628566084398385987584
+        },
+        "target_radius_rational": {
+          "numerator": 4839429171944741,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 24,
+        "image_abs_upper_rational": {
+          "numerator": 8210046377426945,
+          "denominator": 19807040628566084398385987584
+        },
+        "target_radius_rational": {
+          "numerator": 4647426300330271,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 25,
+        "image_abs_upper_rational": {
+          "numerator": 4658467747477505,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 2430978369917503,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 26,
+        "image_abs_upper_rational": {
+          "numerator": 5331062014607361,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 1373028905786959,
+          "denominator": 77371252455336267181195264
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 27,
+        "image_abs_upper_rational": {
+          "numerator": 4786879988597505,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 2436832864767091,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 28,
+        "image_abs_upper_rational": {
+          "numerator": 5667111071754753,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 712232359044773,
+          "denominator": 38685626227668133590597632
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 29,
+        "image_abs_upper_rational": {
+          "numerator": 8525864228438017,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 8894214085802401,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 30,
+        "image_abs_upper_rational": {
+          "numerator": 8636601949200385,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 1124748886667281,
+          "denominator": 38685626227668133590597632
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 31,
+        "image_abs_upper_rational": {
+          "numerator": 8658495282426881,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 4331420991308397,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 32,
+        "image_abs_upper_rational": {
+          "numerator": 4949979235966977,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 1228176925163663,
+          "denominator": 38685626227668133590597632
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 33,
+        "image_abs_upper_rational": {
+          "numerator": 4960883350758161,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 2363986223471557,
+          "denominator": 77371252455336267181195264
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 34,
+        "image_abs_upper_rational": {
+          "numerator": 5529377590588857,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 328765698052711,
+          "denominator": 9671406556917033397649408
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 35,
+        "image_abs_upper_rational": {
+          "numerator": 5938687770662401,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 5778148241092425,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 36,
+        "image_abs_upper_rational": {
+          "numerator": 6282008861633921,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 1525024440153263,
+          "denominator": 77371252455336267181195264
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 37,
+        "image_abs_upper_rational": {
+          "numerator": 5734370236888321,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 5494379564098549,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 38,
+        "image_abs_upper_rational": {
+          "numerator": 6413339831823713,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 6130078130612211,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 39,
+        "image_abs_upper_rational": {
+          "numerator": 6983628922072737,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 6770825424068449,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 40,
+        "image_abs_upper_rational": {
+          "numerator": 7320295400334401,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 7085729208018831,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 41,
+        "image_abs_upper_rational": {
+          "numerator": 6585142848291329,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 6316023377811345,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 42,
+        "image_abs_upper_rational": {
+          "numerator": 5851500590616321,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 176437152917449,
+          "denominator": 4835703278458516698824704
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 43,
+        "image_abs_upper_rational": {
+          "numerator": 7137503757234177,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 6833612683648551,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 44,
+        "image_abs_upper_rational": {
+          "numerator": 6385640325800513,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 6237439861925665,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 45,
+        "image_abs_upper_rational": {
+          "numerator": 7276461504877953,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 7071477140349195,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 46,
+        "image_abs_upper_rational": {
+          "numerator": 5932257257550849,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 2954088582745357,
+          "denominator": 77371252455336267181195264
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 47,
+        "image_abs_upper_rational": {
+          "numerator": 6505535504468097,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 805612486644709,
+          "denominator": 19342813113834066795298816
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 48,
+        "image_abs_upper_rational": {
+          "numerator": 7508315148283393,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 934723491273091,
+          "denominator": 38685626227668133590597632
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 49,
+        "image_abs_upper_rational": {
+          "numerator": 7846098456484865,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 3896749124278825,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 50,
+        "image_abs_upper_rational": {
+          "numerator": 8196277573517313,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 807053556723809479,
+          "denominator": 3777893186295716170956800000
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 51,
+        "image_abs_upper_rational": {
+          "numerator": 8295036569919489,
+          "denominator": 9903520314283042199192993792
+        },
+        "target_radius_rational": {
+          "numerator": 1254426083601369,
+          "denominator": 38685626227668133590597632
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 52,
+        "image_abs_upper_rational": {
+          "numerator": 4516138309623809,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 335153416366809,
+          "denominator": 9671406556917033397649408
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 53,
+        "image_abs_upper_rational": {
+          "numerator": 4805688108687361,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 5518534052559119,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 54,
+        "image_abs_upper_rational": {
+          "numerator": 4922637663305729,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 2814222672465679,
+          "denominator": 77371252455336267181195264
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 55,
+        "image_abs_upper_rational": {
+          "numerator": 5189030172923905,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 5726008359733921,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 56,
+        "image_abs_upper_rational": {
+          "numerator": 5726345137795073,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 6229287403058315,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 57,
+        "image_abs_upper_rational": {
+          "numerator": 6259931329947649,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 6416351499700831,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 58,
+        "image_abs_upper_rational": {
+          "numerator": 6683020134400513,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 3406433560363475,
+          "denominator": 77371252455336267181195264
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 59,
+        "image_abs_upper_rational": {
+          "numerator": 6035076486488065,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 3190421022449527,
+          "denominator": 77371252455336267181195264
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 60,
+        "image_abs_upper_rational": {
+          "numerator": 6054217778251777,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 3132738551891781,
+          "denominator": 77371252455336267181195264
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 61,
+        "image_abs_upper_rational": {
+          "numerator": 6596201606070273,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 3386543029959049,
+          "denominator": 77371252455336267181195264
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 62,
+        "image_abs_upper_rational": {
+          "numerator": 6620229818966593,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 6482699708421621,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 63,
+        "image_abs_upper_rational": {
+          "numerator": 7935954912684161,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 241084524190113,
+          "denominator": 4835703278458516698824704
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 64,
+        "image_abs_upper_rational": {
+          "numerator": 7959150886014145,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 7576382269306415,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 65,
+        "image_abs_upper_rational": {
+          "numerator": 7304189653916161,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 7141192894162809,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 66,
+        "image_abs_upper_rational": {
+          "numerator": 7681010115798529,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 7494291405337649,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 67,
+        "image_abs_upper_rational": {
+          "numerator": 7461820299502849,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 3586477876983407,
+          "denominator": 77371252455336267181195264
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 68,
+        "image_abs_upper_rational": {
+          "numerator": 8788032209522177,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 8414446867312899,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 69,
+        "image_abs_upper_rational": {
+          "numerator": 8296371569211265,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 1012147254876041,
+          "denominator": 19342813113834066795298816
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 70,
+        "image_abs_upper_rational": {
+          "numerator": 4623321016537313,
+          "denominator": 2475880078570760549798248448
+        },
+        "target_radius_rational": {
+          "numerator": 8987250905601191,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 71,
+        "image_abs_upper_rational": {
+          "numerator": 8768882696273153,
+          "denominator": 4951760157141521099596496896
+        },
+        "target_radius_rational": {
+          "numerator": 4361010293160513,
+          "denominator": 77371252455336267181195264
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 72,
+        "image_abs_upper_rational": {
+          "numerator": 4601119423491457,
+          "denominator": 2475880078570760549798248448
+        },
+        "target_radius_rational": {
+          "numerator": 4563845952486685,
+          "denominator": 77371252455336267181195264
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 73,
+        "image_abs_upper_rational": {
+          "numerator": 4806844147164929,
+          "denominator": 2475880078570760549798248448
+        },
+        "target_radius_rational": {
+          "numerator": 4830059939612323,
+          "denominator": 77371252455336267181195264
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 74,
+        "image_abs_upper_rational": {
+          "numerator": 5384738333429761,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 719233268240677,
+          "denominator": 154742504910672534362390528
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 75,
+        "image_abs_upper_rational": {
+          "numerator": 4732895091834881,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 2570136856370557,
+          "denominator": 618970019642690137449562112
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 76,
+        "image_abs_upper_rational": {
+          "numerator": 5383657726320641,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 5504028581603187,
+          "denominator": 1237940039285380274899124224
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 77,
+        "image_abs_upper_rational": {
+          "numerator": 4620667982521921,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 4564877614380305,
+          "denominator": 1237940039285380274899124224
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 78,
+        "image_abs_upper_rational": {
+          "numerator": 7927720587472337,
+          "denominator": 79228162514264337593543950336
+        },
+        "target_radius_rational": {
+          "numerator": 934950799512105,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 79,
+        "image_abs_upper_rational": {
+          "numerator": 7936620142426689,
+          "denominator": 79228162514264337593543950336
+        },
+        "target_radius_rational": {
+          "numerator": 1977461889403183,
+          "denominator": 618970019642690137449562112
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 80,
+        "image_abs_upper_rational": {
+          "numerator": 4625950407880553,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 4570702596657319,
+          "denominator": 1237940039285380274899124224
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 81,
+        "image_abs_upper_rational": {
+          "numerator": 5392786899396609,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 1379432872325093,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      },
+      {
+        "index": 82,
+        "image_abs_upper_rational": {
+          "numerator": 5401870153682945,
+          "denominator": 39614081257132168796771975168
+        },
+        "target_radius_rational": {
+          "numerator": 1443878645647921,
+          "denominator": 309485009821345068724781056
+        },
+        "strictly_inside": true
+      }
+    ],
+    "strictly_included_component_count": 83,
+    "component_count": 83,
+    "maximum_image_radius_ratio": 0.03312223334209029,
+    "final_arb_inclusion_is_proof_bearing": true
+  },
+  "status": {
+    "bridge_contains_source_patch_box_over_overlap": true,
+    "bridge_contains_local_tangent_patch_box": true,
+    "unique_root_in_bridge_for_overlap_interval_certified": true,
+    "same_root_branch_across_predictor_change_certified": true
+  }
+}

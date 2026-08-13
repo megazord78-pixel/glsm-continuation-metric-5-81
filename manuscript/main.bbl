@@ -1,0 +1,76 @@
+\begin{thebibliography}{10}
+
+\bibitem{Donaldson2005}
+Simon~K. Donaldson.
+\newblock Some numerical results in complex differential geometry.
+\newblock {\em Pure and Applied Mathematics Quarterly}, 5(2):571--618, 2009.
+
+\bibitem{Douglas2008}
+Michael~R. Douglas, Robert~L. Karp, Sergio Lukic, and Rene Reinbacher.
+\newblock Numerical calabi--yau metrics.
+\newblock {\em Journal of Mathematical Physics}, 49:032302, 2008.
+
+\bibitem{Braun2008}
+Volker Braun, Tamaz Brelidze, Michael~R. Douglas, and Burt~A. Ovrut.
+\newblock Calabi--yau metrics for quotients and complete intersections.
+\newblock {\em JHEP}, 05:080, 2008.
+
+\bibitem{Headrick2013}
+Matthew Headrick and Ali Nassar.
+\newblock Energy functionals for calabi--yau metrics.
+\newblock {\em Advances in Theoretical and Mathematical Physics},
+  17(5):867--902, 2013.
+
+\bibitem{Ashmore2020}
+Anthony Ashmore, Yang-Hui He, and Burt~A. Ovrut.
+\newblock Machine learning calabi--yau metrics.
+\newblock {\em Fortschritte der Physik}, 68(9):2000068, 2020.
+
+\bibitem{Anderson2021}
+Lara~B. Anderson, Mathis Gerdes, James Gray, Sven Krippendorf, Nikhil Raghuram,
+  and Fabian Ruehle.
+\newblock Moduli-dependent calabi--yau and {SU(3)}-structure metrics from
+  machine learning.
+\newblock {\em JHEP}, 05:013, 2021.
+
+\bibitem{Larfors2022}
+Magdalena Larfors, Andre Lukas, Fabian Ruehle, and Robin Schneider.
+\newblock Numerical metrics for complete intersection and kreuzer--skarke
+  calabi--yau manifolds.
+\newblock {\em Machine Learning: Science and Technology}, 3(3):035014, 2022.
+
+\bibitem{FraserTaliente2024}
+Kit Fraser-Taliente, Thomas~R. Harvey, and Manki Kim.
+\newblock Not so flat metrics.
+\newblock {\em arXiv preprint}, 2024.
+
+\bibitem{Ishige2025}
+Toshimasa Ishige and Akitoshi Takayasu.
+\newblock Computer-assisted proofs for finding the monodromy of picard--fuchs
+  differential equations for a family of {K3} toric hypersurfaces.
+\newblock {\em Communications in Nonlinear Science and Numerical Simulation},
+  152:109408, 2026.
+
+\bibitem{Demirtas2021}
+Mehmet Demirtas, Manki Kim, Liam McAllister, Jakob Moritz, and Andres
+  Rios-Tascon.
+\newblock Small cosmological constants in string theory.
+\newblock {\em JHEP}, 12:136, 2021.
+
+\bibitem{Moore2009}
+Ramon~E. Moore, R.~Baker Kearfott, and Michael~J. Cloud.
+\newblock {\em Introduction to Interval Analysis}.
+\newblock Society for Industrial and Applied Mathematics, Philadelphia, 2009.
+
+\bibitem{Breiding2023}
+Paul Breiding, Kemal Rose, and Sascha Timme.
+\newblock Certifying zeros of polynomial systems using interval arithmetic.
+\newblock {\em ACM Transactions on Mathematical Software}, 49(1):1--14, 2023.
+
+\bibitem{Johansson2017}
+Fredrik Johansson.
+\newblock Arb: efficient arbitrary-precision midpoint-radius interval
+  arithmetic.
+\newblock {\em IEEE Transactions on Computers}, 66(8):1281--1292, 2017.
+
+\end{thebibliography}
