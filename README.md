@@ -1,5 +1,7 @@
 # Interval-certified corrected GLSM metric on the `(5,81)` model
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21923926.svg)](https://doi.org/10.5281/zenodo.21923926)
+
 This is the standalone `v1.0.1` research release accompanying:
 
 > Evgeniy Agafonov, *An Interval-Certified Positivity Theorem for a
@@ -76,6 +78,8 @@ root boxes.  These independence boundaries are part of the scientific claim.
 ## Citation and license
 
 Citation metadata are in `CITATION.cff`.  Code and verification material are
-distributed under the BSD 3-Clause License.  Release `v1.0.1` is an
+distributed under the BSD 3-Clause License.  The archived release DOI is
+[`10.5281/zenodo.21923926`](https://doi.org/10.5281/zenodo.21923926).
+Release `v1.0.1` is an
 archive-integration update: it does not alter the theorem, proof records, or
-numerical bounds.  The Zenodo DOI will be added after ingestion completes.
+numerical bounds.

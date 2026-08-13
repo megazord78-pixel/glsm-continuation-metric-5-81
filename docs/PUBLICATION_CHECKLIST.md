@@ -13,8 +13,8 @@
 - [x] Create a dedicated public GitHub repository from this directory only.
 - [x] Add GitHub Actions for Python 3.11, 3.12, and 3.13.
 - [x] Tag the initial immutable commit as `v1.0.0`.
-- [ ] Archive the metadata-only `v1.0.1` update with Zenodo and insert its DOI
-  into `CITATION.cff`.
+- [x] Archive the metadata-only `v1.0.1` update with Zenodo and insert DOI
+  `10.5281/zenodo.21923926` into `CITATION.cff`.
 
 ## Preprint submission
 

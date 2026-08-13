@@ -4,6 +4,7 @@ title: "A certified GLSM continuation metric chain on the (5,81) Calabi--Yau mod
 type: software
 version: 1.0.1
 date-released: 2026-08-13
+doi: 10.5281/zenodo.21923926
 authors:
   - family-names: Agafonov
     given-names: Evgeniy
@@ -11,6 +12,7 @@ authors:
     email: my@eagafonov.ru
     orcid: "https://orcid.org/0009-0005-9059-5291"
 repository-code: "https://github.com/megazord78-pixel/glsm-continuation-metric-5-81"
+url: "https://doi.org/10.5281/zenodo.21923926"
 license: BSD-3-Clause
 keywords:
   - Calabi-Yau metric
