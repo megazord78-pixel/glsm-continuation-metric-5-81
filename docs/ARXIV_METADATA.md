@@ -37,11 +37,11 @@ vacuum.
 
 ## Comments
 
-Computer-assisted proof; standalone exact-rational verifier and proof data
-included in the associated archived release.
+6 pages, 1 table. Computer-assisted proof; standalone exact-rational verifier
+and proof data archived at https://doi.org/10.5281/zenodo.21923926; source
+release at https://github.com/megazord78-pixel/glsm-continuation-metric-5-81/releases/tag/v1.0.1.
 
 ## MSC / keywords
 
 Validated numerics; interval arithmetic; Krawczyk operator; Calabi--Yau
 metrics; gauged linear sigma models; Hermitian positive definiteness.
-
