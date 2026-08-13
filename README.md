@@ -1,6 +1,6 @@
 # Interval-certified corrected GLSM metric on the `(5,81)` model
 
-This is the standalone `v1.0.0` research release accompanying:
+This is the standalone `v1.0.1` research release accompanying:
 
 > Evgeniy Agafonov, *An Interval-Certified Positivity Theorem for a
 > Corrected GLSM Metric along a Calabi--Yau Continuation Path* (2026).
@@ -76,5 +76,6 @@ root boxes.  These independence boundaries are part of the scientific claim.
 ## Citation and license
 
 Citation metadata are in `CITATION.cff`.  Code and verification material are
-distributed under the BSD 3-Clause License.  The archived DOI will be added
-after the immutable GitHub `v1.0.0` tag is deposited with Zenodo.
+distributed under the BSD 3-Clause License.  Release `v1.0.1` is an
+archive-integration update: it does not alter the theorem, proof records, or
+numerical bounds.  The Zenodo DOI will be added after ingestion completes.

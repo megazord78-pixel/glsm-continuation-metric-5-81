@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "glsm-continuation-metric-5-81"
-version = "1.0.0"
+version = "1.0.1"
 description = "Portable verifier for an interval-certified corrected GLSM metric continuation theorem"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -25,4 +25,3 @@ verify-glsm-metric-certificate = "models.string_5_81_glsm_continuation_chain_ind
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["models*"]
-

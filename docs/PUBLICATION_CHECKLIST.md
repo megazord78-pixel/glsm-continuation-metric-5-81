@@ -10,10 +10,11 @@
 - [x] Bind all files with a release manifest.
 - [x] Compile `manuscript/main.tex` with BibTeX and visually inspect all PDF pages.
 - [x] Run `python verify_release.py` on a clean unpack of the final ZIP.
-- [ ] Create a dedicated public GitHub repository from this directory only.
-- [ ] Add GitHub Actions for Python 3.11, 3.12, and 3.13.
-- [ ] Tag the immutable commit as `v1.0.0`.
-- [ ] Archive that tag with Zenodo and insert the DOI into `CITATION.cff`.
+- [x] Create a dedicated public GitHub repository from this directory only.
+- [x] Add GitHub Actions for Python 3.11, 3.12, and 3.13.
+- [x] Tag the initial immutable commit as `v1.0.0`.
+- [ ] Archive the metadata-only `v1.0.1` update with Zenodo and insert its DOI
+  into `CITATION.cff`.
 
 ## Preprint submission
 
