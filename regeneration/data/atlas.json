@@ -1,0 +1,719 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "points_sha256": "fef3de1b1e2ff469bfa1a342349ba5a9b9c7cc41caddc6c46db22cc12730204a",
+    "dual_points_sha256": "62bdca6c4d2ec6f4a1f508a7b3e38739d55c8e73e79d8fceef7bc750635bc548",
+    "corrected_heights_sha256": "fc9054643c09f0fc8c7e14617aa43c3d9d75f37d3950f7db7734b8b495a157f6",
+    "coefficient_source_sha256": "26ebd90685192a16aa5588c51e37d9c18e2232cd43a0baf32a8fed586042dc87"
+  },
+  "fan": {
+    "maximal_cones": 389,
+    "unimodular_maximal_cones": 333,
+    "selected_cone_divisor_indices": [
+      1,
+      8,
+      50,
+      74
+    ],
+    "selected_cone_determinant": 1,
+    "selected_ray_vectors": [
+      [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        1,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        -1
+      ]
+    ]
+  },
+  "chart_hypersurface": {
+    "coordinates": [
+      "y0",
+      "y1",
+      "y2",
+      "y3"
+    ],
+    "monomials": [
+      {
+        "dual_lattice_point": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "chart_exponents": [
+          2,
+          1,
+          0,
+          1
+        ],
+        "coefficient_exact": "1"
+      },
+      {
+        "dual_lattice_point": [
+          -2,
+          -1,
+          -1,
+          1
+        ],
+        "chart_exponents": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "coefficient_exact": "-13003921791299185694636059354935675070774798604877/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 - 11502986296385309691375032565151093153344033868069*I/2500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "dual_lattice_point": [
+          -2,
+          -1,
+          0,
+          0
+        ],
+        "chart_exponents": [
+          0,
+          2,
+          4,
+          2
+        ],
+        "coefficient_exact": "-1107564141976498550947699275234314657765498916119/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 - 59286070614170436035915198182340368536994210464713*I/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "dual_lattice_point": [
+          -2,
+          0,
+          -1,
+          0
+        ],
+        "chart_exponents": [
+          0,
+          2,
+          2,
+          1
+        ],
+        "coefficient_exact": "24856604765271807341637985408057569948830237293867/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 + 67653469273671275352201030478503489196384653540401*I/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "dual_lattice_point": [
+          -2,
+          0,
+          0,
+          -1
+        ],
+        "chart_exponents": [
+          0,
+          2,
+          3,
+          2
+        ],
+        "coefficient_exact": "3107075595658975917712877647027973600888045104261/125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 + 67653469273671275352378041594256118941037147147203*I/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "dual_lattice_point": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "chart_exponents": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "coefficient_exact": "1"
+      },
+      {
+        "dual_lattice_point": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "chart_exponents": [
+          0,
+          0,
+          2,
+          1
+        ],
+        "coefficient_exact": "1"
+      },
+      {
+        "dual_lattice_point": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "chart_exponents": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficient_exact": "1"
+      },
+      {
+        "dual_lattice_point": [
+          0,
+          1,
+          1,
+          -1
+        ],
+        "chart_exponents": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "coefficient_exact": "29184164791395705704484322289058966634926328065161/1000000000000000000000000000000000000000000000000000000000000000000000000 + 3309682226187310950957231757799650777754621624287*I/12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "dual_lattice_point": [
+          -1,
+          0,
+          0,
+          0
+        ],
+        "chart_exponents": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "coefficient_exact": "-1/4"
+      }
+    ],
+    "polynomial_exact": "y0**2*y1*y3 - 1107564141976498550947699275234314657765498916119*y1**2*y2**4*y3**2/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 - 59286070614170436035915198182340368536994210464713*I*y1**2*y2**4*y3**2/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 + 3107075595658975917712877647027973600888045104261*y1**2*y2**3*y3**2/125000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 + 67653469273671275352378041594256118941037147147203*I*y1**2*y2**3*y3**2/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 - 13003921791299185694636059354935675070774798604877*y1**2*y2**3*y3/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 - 11502986296385309691375032565151093153344033868069*I*y1**2*y2**3*y3/2500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 + 24856604765271807341637985408057569948830237293867*y1**2*y2**2*y3/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 + 67653469273671275352201030478503489196384653540401*I*y1**2*y2**2*y3/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 - y1*y2**2*y3/4 + y2**2*y3 + 29184164791395705704484322289058966634926328065161*y2*y3/1000000000000000000000000000000000000000000000000000000000000000000000000 + 3309682226187310950957231757799650777754621624287*I*y2*y3/12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 + y2 + 1",
+    "all_exponents_nonnegative": true,
+    "univariate_slice": "y2**4*(-1107564141976498550947699275234314657765498916119/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 - 59286070614170436035915198182340368536994210464713*I/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000) + y2**3*(2485660476527180734157298195831079695015800024053864324929225201395123/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 + 1691336731841781883797948053560017663834553646114923906846655966131931*I/2500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000) + y2**2*(750000000000000000000000000000000000000000000000000000000000000000024856604765271807341637985408057569948830237293867/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 + 67653469273671275352201030478503489196384653540401*I/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000) + y2*(1000000000000000000000029184164791395705704484322289058966634926328065161/1000000000000000000000000000000000000000000000000000000000000000000000000 + 3309682226187310950957231757799650777754621624287*I/12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000) + 2",
+    "univariate_degree": 4,
+    "univariate_constant_nonzero": true,
+    "gcd_with_derivative_degree": 0,
+    "all_slice_roots_simple_and_nonzero": true
+  },
+  "local_witness": {
+    "fixed_coordinates": {
+      "y0": "1",
+      "y1": "1",
+      "y3": "1"
+    },
+    "selected_y2_root": "(-0.666666666666666666666686122776527597137136322881526039311011 + 1.49071198499985979760610707811733880805807595151221559825003j)",
+    "polynomial_residual": "(5.21951072884853773095229341431835659450780587453296396431197E-150 - 4.46828578576519448947012107624887050651593400012419028642717E-151j)",
+    "dF_dy2": "(1.18410790956368791382662600731173801897562950177654787786029E-58 + 2.23606797749978969640916061717600821208711392726832339737531j)",
+    "implicit_local_coordinates": [
+      "y0",
+      "y1",
+      "y3"
+    ],
+    "dy2_first_derivatives": [
+      "(-4.73643163825475165530655932076753367870450416954744538188398E-59 + 0.894427190999915878563674688114617703517649116812363119644675j)",
+      "(-0.222222222222222222222228707592175865712378774293842013103678 + 0.645975193499939245629314807391549219938966836639465719357455j)",
+      "(0.666666666666666666666666666666666666666666666666666666666596 - 0.149071198499985979760603746982257601683938564674831965937321j)"
+    ],
+    "dy2_second_derivatives": [
+      [
+        "(3.78914531855791484913232533065452090833058531321326670812602E-59 + 0.357770876399966351425463610499318430197377519108792433413747j)",
+        "(-3.31614654178693294749727713198410441786763880187031253158678E-59 + 0.804984471899924290707306175178734491297603850528434671939520j)",
+        "(3.31299939780637570384832350285143758163013447784650102306428E-59 + 0.0894427190999915878563632923137760028786434933466475169469192j)"
+      ],
+      [
+        "(-3.31614654178693294749727713198410441786763880187031253158678E-59 + 0.804984471899924290707306175178734491297603850528434671939520j)",
+        "(-0.148148148148148148148152471728117243808252516195894675402434 + 0.117600612149988939588923556733513043416753974441534698405886j)",
+        "(0.222222222222222222222222222222222222222222222222222222222196 + 0.114287918849989251149805081077313083838069246801557784119492j)"
+      ],
+      [
+        "(3.31299939780637570384832350285143758163013447784650102306428E-59 + 0.0894427190999915878563632923137760028786434933466475169469192j)",
+        "(0.222222222222222222222222222222222222222222222222222222222196 + 0.114287918849989251149805081077313083838069246801557784119492j)",
+        "(-1.33333333333333333333333333333333333333333333333333333333319 - 0.0149071198499985979760770806889688300608795297068047043351646j)"
+      ]
+    ],
+    "implicit_function_theorem_applies": true
+  },
+  "d3_configuration_atlas": {
+    "single_d3_complex_dimension": 3,
+    "eight_ordered_d3_complex_dimension": 24,
+    "product_chart_coordinates": [
+      "y0^1",
+      "y1^1",
+      "y3^1",
+      "y0^2",
+      "y1^2",
+      "y3^2",
+      "y0^3",
+      "y1^3",
+      "y3^3",
+      "y0^4",
+      "y1^4",
+      "y3^4",
+      "y0^5",
+      "y1^5",
+      "y3^5",
+      "y0^6",
+      "y1^6",
+      "y3^6",
+      "y0^7",
+      "y1^7",
+      "y3^7",
+      "y0^8",
+      "y1^8",
+      "y3^8"
+    ],
+    "local_canonical_sections_for_nonperturbative_divisors": [
+      {
+        "divisor": 2,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 3,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 4,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 5,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 6,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 7,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 8,
+        "local_canonical_section": "y1",
+        "status": "varying_chart_coordinate"
+      },
+      {
+        "divisor": 9,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 10,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 11,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 12,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 13,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 14,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 15,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 16,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 17,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 18,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 19,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 20,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 21,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 22,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 23,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 24,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 25,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 26,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 27,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 28,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 29,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 30,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 31,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 32,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 33,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 34,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 35,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 36,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 37,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 38,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 39,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 40,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 41,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 42,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 43,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 44,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 45,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 46,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 47,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 48,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 49,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 50,
+        "local_canonical_section": "y2",
+        "status": "varying_chart_coordinate"
+      },
+      {
+        "divisor": 51,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 52,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 53,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 54,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 55,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 56,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 57,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 58,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 59,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 60,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 61,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 62,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 63,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 64,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 65,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 66,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 67,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 68,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 69,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 70,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 71,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 72,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 73,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 74,
+        "local_canonical_section": "y3",
+        "status": "varying_chart_coordinate"
+      },
+      {
+        "divisor": 75,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 76,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 77,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 78,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 79,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 80,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 81,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 82,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 83,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 84,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      },
+      {
+        "divisor": 85,
+        "local_canonical_section": "1",
+        "status": "nonvanishing_local_trivialization"
+      }
+    ]
+  },
+  "conclusions": {
+    "explicit_unimodular_ambient_chart_constructed": true,
+    "truncated_hypersurface_local_threefold_chart_constructed": true,
+    "ordered_eight_d3_local_24_coordinate_product_atlas_constructed": true,
+    "canonical_incidence_sections_locally_evaluable": true,
+    "physical_d3_positions_identified": false,
+    "open_kahler_metric_computed": false,
+    "residual_pfaffian_factors_computed": false,
+    "common_113_field_f_flat_root_computed": false
+  },
+  "scope": [
+    "The exact coefficient snapshot is the implemented truncated orientifold polynomial, not a newly measured physical D3 configuration.",
+    "The selected point proves and illustrates a local chart; it is deliberately not used as a candidate open F-flat root.",
+    "Cox coordinates outside the selected cone are set to one only as local nonvanishing trivializations.",
+    "The open Kahler metric and H_D determinant factors cannot be inferred from this algebraic atlas alone."
+  ]
+}

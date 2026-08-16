@@ -1,0 +1,1289 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "generator_sha256": "24b5e70126d55de02ef8b0eb4825bbcbd24811ba6863a728f5575a540b1674eb",
+    "cached_engine_sha256": "166925344cdf933115d60c53d1a1e16b40de6f9a1290d7deb153fe096b8bd4d9",
+    "frozen_stratified_replay_sha256": "8066132edf8975ad8b0b330571f307589eb34e52c3969d36ae73d88a392ea39b"
+  },
+  "protocol": {
+    "path_index": 1083,
+    "sample_vertex_indices": [
+      0,
+      3,
+      5,
+      10,
+      16,
+      21,
+      28,
+      31
+    ],
+    "sample_count": 8,
+    "worker_count": 4,
+    "comparison_fields": [
+      "sequence",
+      "path_index",
+      "offset_slots",
+      "t_center",
+      "depth_center",
+      "root_history",
+      "root_q",
+      "minor_directed_rational_bounds",
+      "root_pass",
+      "metric_pass",
+      "full_pass"
+    ]
+  },
+  "timing": {
+    "baseline_seconds": 39.901603199999954,
+    "cached_seconds": 27.49084330000005,
+    "speedup_ratio": 1.451450679943306
+  },
+  "comparison": {
+    "baseline_matches_frozen_records_exactly": true,
+    "cached_matches_baseline_records_exactly": true,
+    "baseline_records": [
+      {
+        "sequence": 0,
+        "path_index": 1083,
+        "offset_slots": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8948640023431764
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002727048521273
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793398564977274
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284624481379147
+          }
+        ],
+        "root_q": 0.8284624481379147,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 3459295263923405,
+              "denominator": 288230376151711744
+            },
+            "upper": {
+              "numerator": 1947198143368807,
+              "denominator": 144115188075855872
+            }
+          },
+          {
+            "lower": {
+              "numerator": 1715377689344041,
+              "denominator": 4611686018427387904
+            },
+            "upper": {
+              "numerator": 4258486652792915,
+              "denominator": 9223372036854775808
+            }
+          },
+          {
+            "lower": {
+              "numerator": 8422442866312153,
+              "denominator": 75557863725914323419136
+            },
+            "upper": {
+              "numerator": 215863471295489,
+              "denominator": 73786976294838206464
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 3,
+        "path_index": 1083,
+        "offset_slots": [
+          -1,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.894759788096817
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002698203618939
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793521133027846
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284688220936907
+          }
+        ],
+        "root_q": 0.8284688220936907,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 6918766698520259,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 7788616388009669,
+              "denominator": 576460752303423488
+            }
+          },
+          {
+            "lower": {
+              "numerator": 3430916742086539,
+              "denominator": 9223372036854775808
+            },
+            "upper": {
+              "numerator": 1064581319794659,
+              "denominator": 2305843009213693952
+            }
+          },
+          {
+            "lower": {
+              "numerator": 4231763000957493,
+              "denominator": 37778931862957161709568
+            },
+            "upper": {
+              "numerator": 1726586806716521,
+              "denominator": 590295810358705651712
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 5,
+        "path_index": 1083,
+        "offset_slots": [
+          -1,
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8947079048966998
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002729015702341
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.779355820055349
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284701892994115
+          }
+        ],
+        "root_q": 0.8284701892994115,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 3459386853815259,
+              "denominator": 288230376151711744
+            },
+            "upper": {
+              "numerator": 973576171420919,
+              "denominator": 72057594037927936
+            }
+          },
+          {
+            "lower": {
+              "numerator": 6861845395225989,
+              "denominator": 18446744073709551616
+            },
+            "upper": {
+              "numerator": 8516638687706503,
+              "denominator": 18446744073709551616
+            }
+          },
+          {
+            "lower": {
+              "numerator": 4232459364665769,
+              "denominator": 37778931862957161709568
+            },
+            "upper": {
+              "numerator": 1726575929447463,
+              "denominator": 590295810358705651712
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 10,
+        "path_index": 1083,
+        "offset_slots": [
+          -1,
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.894264616276603
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002998403128586
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793482015282642
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284612919056961
+          }
+        ],
+        "root_q": 0.8284612919056961,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 3459270982836741,
+              "denominator": 288230376151711744
+            },
+            "upper": {
+              "numerator": 1947210277622019,
+              "denominator": 144115188075855872
+            }
+          },
+          {
+            "lower": {
+              "numerator": 3430710294277485,
+              "denominator": 9223372036854775808
+            },
+            "upper": {
+              "numerator": 2129265854084791,
+              "denominator": 4611686018427387904
+            }
+          },
+          {
+            "lower": {
+              "numerator": 1051355915726735,
+              "denominator": 9444732965739290427392
+            },
+            "upper": {
+              "numerator": 6907993395882981,
+              "denominator": 2361183241434822606848
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 16,
+        "path_index": 1083,
+        "offset_slots": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8941089666415571
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002490310970004
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793621676840494
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284774613338702
+          }
+        ],
+        "root_q": 0.8284774613338702,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 6918975554985221,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 7788407534787847,
+              "denominator": 576460752303423488
+            }
+          },
+          {
+            "lower": {
+              "numerator": 3431107918175725,
+              "denominator": 9223372036854775808
+            },
+            "upper": {
+              "numerator": 2129067073277687,
+              "denominator": 4611686018427387904
+            }
+          },
+          {
+            "lower": {
+              "numerator": 2128031168876971,
+              "denominator": 18889465931478580854784
+            },
+            "upper": {
+              "numerator": 3452414277338395,
+              "denominator": 1180591620717411303424
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 21,
+        "path_index": 1083,
+        "offset_slots": [
+          1,
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8942650666306428
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002999363189851
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793481942192834
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284613049289496
+          }
+        ],
+        "root_q": 0.8284613049289496,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 3459267963910499,
+              "denominator": 288230376151711744
+            },
+            "upper": {
+              "numerator": 973605892456025,
+              "denominator": 72057594037927936
+            }
+          },
+          {
+            "lower": {
+              "numerator": 3430704759339981,
+              "denominator": 9223372036854775808
+            },
+            "upper": {
+              "numerator": 2129268657700327,
+              "denominator": 4611686018427387904
+            }
+          },
+          {
+            "lower": {
+              "numerator": 8409421382385833,
+              "denominator": 75557863725914323419136
+            },
+            "upper": {
+              "numerator": 3454019019804163,
+              "denominator": 1180591620717411303424
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 28,
+        "path_index": 1083,
+        "offset_slots": [
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8947602383913805
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002697833048178
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793520773850275
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.828468815777581
+          }
+        ],
+        "root_q": 0.828468815777581,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 6918766540731237,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 7788616516481895,
+              "denominator": 576460752303423488
+            }
+          },
+          {
+            "lower": {
+              "numerator": 3430916626271557,
+              "denominator": 9223372036854775808
+            },
+            "upper": {
+              "numerator": 2129162714850979,
+              "denominator": 4611686018427387904
+            }
+          },
+          {
+            "lower": {
+              "numerator": 4231746793244745,
+              "denominator": 37778931862957161709568
+            },
+            "upper": {
+              "numerator": 3453174121963587,
+              "denominator": 1180591620717411303424
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 31,
+        "path_index": 1083,
+        "offset_slots": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8948644526377401
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002727847047527
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793398623709198
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284624387515765
+          }
+        ],
+        "root_q": 0.8284624387515765,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 6918590194782409,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 7788792847536331,
+              "denominator": 576460752303423488
+            }
+          },
+          {
+            "lower": {
+              "numerator": 214422194245349,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 4258486937775697,
+              "denominator": 9223372036854775808
+            }
+          },
+          {
+            "lower": {
+              "numerator": 8422372386423591,
+              "denominator": 75557863725914323419136
+            },
+            "upper": {
+              "numerator": 3453816637294861,
+              "denominator": 1180591620717411303424
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      }
+    ],
+    "cached_records": [
+      {
+        "sequence": 0,
+        "path_index": 1083,
+        "offset_slots": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8948640023431764
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002727048521273
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793398564977274
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284624481379147
+          }
+        ],
+        "root_q": 0.8284624481379147,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 3459295263923405,
+              "denominator": 288230376151711744
+            },
+            "upper": {
+              "numerator": 1947198143368807,
+              "denominator": 144115188075855872
+            }
+          },
+          {
+            "lower": {
+              "numerator": 1715377689344041,
+              "denominator": 4611686018427387904
+            },
+            "upper": {
+              "numerator": 4258486652792915,
+              "denominator": 9223372036854775808
+            }
+          },
+          {
+            "lower": {
+              "numerator": 8422442866312153,
+              "denominator": 75557863725914323419136
+            },
+            "upper": {
+              "numerator": 215863471295489,
+              "denominator": 73786976294838206464
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 3,
+        "path_index": 1083,
+        "offset_slots": [
+          -1,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.894759788096817
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002698203618939
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793521133027846
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284688220936907
+          }
+        ],
+        "root_q": 0.8284688220936907,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 6918766698520259,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 7788616388009669,
+              "denominator": 576460752303423488
+            }
+          },
+          {
+            "lower": {
+              "numerator": 3430916742086539,
+              "denominator": 9223372036854775808
+            },
+            "upper": {
+              "numerator": 1064581319794659,
+              "denominator": 2305843009213693952
+            }
+          },
+          {
+            "lower": {
+              "numerator": 4231763000957493,
+              "denominator": 37778931862957161709568
+            },
+            "upper": {
+              "numerator": 1726586806716521,
+              "denominator": 590295810358705651712
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 5,
+        "path_index": 1083,
+        "offset_slots": [
+          -1,
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8947079048966998
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002729015702341
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.779355820055349
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284701892994115
+          }
+        ],
+        "root_q": 0.8284701892994115,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 3459386853815259,
+              "denominator": 288230376151711744
+            },
+            "upper": {
+              "numerator": 973576171420919,
+              "denominator": 72057594037927936
+            }
+          },
+          {
+            "lower": {
+              "numerator": 6861845395225989,
+              "denominator": 18446744073709551616
+            },
+            "upper": {
+              "numerator": 8516638687706503,
+              "denominator": 18446744073709551616
+            }
+          },
+          {
+            "lower": {
+              "numerator": 4232459364665769,
+              "denominator": 37778931862957161709568
+            },
+            "upper": {
+              "numerator": 1726575929447463,
+              "denominator": 590295810358705651712
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 10,
+        "path_index": 1083,
+        "offset_slots": [
+          -1,
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.894264616276603
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002998403128586
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793482015282642
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284612919056961
+          }
+        ],
+        "root_q": 0.8284612919056961,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 3459270982836741,
+              "denominator": 288230376151711744
+            },
+            "upper": {
+              "numerator": 1947210277622019,
+              "denominator": 144115188075855872
+            }
+          },
+          {
+            "lower": {
+              "numerator": 3430710294277485,
+              "denominator": 9223372036854775808
+            },
+            "upper": {
+              "numerator": 2129265854084791,
+              "denominator": 4611686018427387904
+            }
+          },
+          {
+            "lower": {
+              "numerator": 1051355915726735,
+              "denominator": 9444732965739290427392
+            },
+            "upper": {
+              "numerator": 6907993395882981,
+              "denominator": 2361183241434822606848
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 16,
+        "path_index": 1083,
+        "offset_slots": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8941089666415571
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002490310970004
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793621676840494
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284774613338702
+          }
+        ],
+        "root_q": 0.8284774613338702,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 6918975554985221,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 7788407534787847,
+              "denominator": 576460752303423488
+            }
+          },
+          {
+            "lower": {
+              "numerator": 3431107918175725,
+              "denominator": 9223372036854775808
+            },
+            "upper": {
+              "numerator": 2129067073277687,
+              "denominator": 4611686018427387904
+            }
+          },
+          {
+            "lower": {
+              "numerator": 2128031168876971,
+              "denominator": 18889465931478580854784
+            },
+            "upper": {
+              "numerator": 3452414277338395,
+              "denominator": 1180591620717411303424
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 21,
+        "path_index": 1083,
+        "offset_slots": [
+          1,
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8942650666306428
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002999363189851
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793481942192834
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284613049289496
+          }
+        ],
+        "root_q": 0.8284613049289496,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 3459267963910499,
+              "denominator": 288230376151711744
+            },
+            "upper": {
+              "numerator": 973605892456025,
+              "denominator": 72057594037927936
+            }
+          },
+          {
+            "lower": {
+              "numerator": 3430704759339981,
+              "denominator": 9223372036854775808
+            },
+            "upper": {
+              "numerator": 2129268657700327,
+              "denominator": 4611686018427387904
+            }
+          },
+          {
+            "lower": {
+              "numerator": 8409421382385833,
+              "denominator": 75557863725914323419136
+            },
+            "upper": {
+              "numerator": 3454019019804163,
+              "denominator": 1180591620717411303424
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 28,
+        "path_index": 1083,
+        "offset_slots": [
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8947602383913805
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002697833048178
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793520773850275
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.828468815777581
+          }
+        ],
+        "root_q": 0.828468815777581,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 6918766540731237,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 7788616516481895,
+              "denominator": 576460752303423488
+            }
+          },
+          {
+            "lower": {
+              "numerator": 3430916626271557,
+              "denominator": 9223372036854775808
+            },
+            "upper": {
+              "numerator": 2129162714850979,
+              "denominator": 4611686018427387904
+            }
+          },
+          {
+            "lower": {
+              "numerator": 4231746793244745,
+              "denominator": 37778931862957161709568
+            },
+            "upper": {
+              "numerator": 3453174121963587,
+              "denominator": 1180591620717411303424
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      },
+      {
+        "sequence": 31,
+        "path_index": 1083,
+        "offset_slots": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "t_center": {
+          "numerator": 0,
+          "denominator": 1
+        },
+        "depth_center": {
+          "numerator": 3,
+          "denominator": 2
+        },
+        "root_history": [
+          {
+            "step": 0,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8948644526377401
+          },
+          {
+            "step": 1,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7002727847047527
+          },
+          {
+            "step": 2,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.7793398623709198
+          },
+          {
+            "step": 3,
+            "included_component_count": 81,
+            "maximum_image_radius_ratio": 0.8284624387515765
+          }
+        ],
+        "root_q": 0.8284624387515765,
+        "minor_directed_rational_bounds": [
+          {
+            "lower": {
+              "numerator": 6918590194782409,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 7788792847536331,
+              "denominator": 576460752303423488
+            }
+          },
+          {
+            "lower": {
+              "numerator": 214422194245349,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 4258486937775697,
+              "denominator": 9223372036854775808
+            }
+          },
+          {
+            "lower": {
+              "numerator": 8422372386423591,
+              "denominator": 75557863725914323419136
+            },
+            "upper": {
+              "numerator": 3453816637294861,
+              "denominator": 1180591620717411303424
+            }
+          }
+        ],
+        "root_pass": true,
+        "metric_pass": true,
+        "full_pass": true
+      }
+    ]
+  },
+  "status": {
+    "paired_equivalence_benchmark_completed": true,
+    "cached_engine_scientifically_exact_on_frozen_sample": true,
+    "cached_engine_measured_faster": true,
+    "cached_engine_admitted_for_full_path_replay": true,
+    "full_path_corner_replay_completed": false,
+    "publication_release_admitted": false
+  }
+}

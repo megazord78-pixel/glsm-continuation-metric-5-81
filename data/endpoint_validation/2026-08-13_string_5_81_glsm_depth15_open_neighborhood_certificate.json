@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "generator_sha256": "591711b6fe3e06c513289fe45cfbc0d92c33d2523738a4d6f416f5af1ea831db",
+    "stdlib_verifier_sha256": "338c27a543ea57995e13a7265eb4bda4fabbdd2443f1682f5836d10e796978b8",
+    "mutation_tests_sha256": "968286415453848925c20cc88bbcfa3c05a3bde0b44a20fd2e5903b774e23b08",
+    "nested_material_box_sha256": "c2951c5258f916e1c2ae0389bc1baf9f2219a594cb5d7ce814a715a4846639f9",
+    "independent_joint_root_sha256": "b7d9c0ee7b0c3bb56cf0f138bceb68416b49987f598edde55dd62191bf63e2ba",
+    "independent_baseline_metric_sha256": "270017ac52c93c432feb4c55fe94ce17ede156b4c9119802aca4a1849d4439df",
+    "independent_joint_correction_sha256": "d881c7ee27fd29748b0c58fc1d8bf3b9ef7159aab0ff4748563cf87831b8956b",
+    "independent_materiality_consensus_sha256": "96e6e13b87f46104cb20f5fc9a79179aa5d9c75e1a8b450378884d6cb9fc4079"
+  },
+  "theorem_domain": {
+    "chart_complex_dimension": 3,
+    "chart_real_dimension": 6,
+    "coordinate_order": [
+      "Re(z0)",
+      "Im(z0)",
+      "Re(z1)",
+      "Im(z1)",
+      "Re(z2)",
+      "Im(z2)"
+    ],
+    "closed_box_center_rational_pairs": [
+      {
+        "numerator": -3,
+        "denominator": 2
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      }
+    ],
+    "closed_box_common_free_radius": {
+      "numerator": 1,
+      "denominator": 1000000000
+    },
+    "open_neighborhood_definition": "U = product_i (center_i-r, center_i+r) in R^6",
+    "closed_proof_box_definition": "B = product_i [center_i-r, center_i+r] in R^6",
+    "implicit_unknown_real_dimension": 83,
+    "implicit_unknown_radius": {
+      "numerator": 1,
+      "denominator": 100000000
+    }
+  },
+  "path_embedding": {
+    "depth_center": {
+      "numerator": 3,
+      "denominator": 2
+    },
+    "path_rule": "x0=-d and x1=...=x5=0",
+    "closed_box_one_sided_depth_interval": {
+      "lower": {
+        "numerator": 1499999999,
+        "denominator": 1000000000
+      },
+      "upper": {
+        "numerator": 3,
+        "denominator": 2
+      }
+    },
+    "open_neighborhood_path_subsegment": {
+      "lower": {
+        "numerator": 1499999999,
+        "denominator": 1000000000
+      },
+      "lower_endpoint_included": false,
+      "upper": {
+        "numerator": 3,
+        "denominator": 2
+      },
+      "upper_endpoint_included": true
+    },
+    "endpoint_is_interior_point_of_U": true
+  },
+  "replayed_evidence": {
+    "joint_root_component_count": 83,
+    "baseline_minor_count": 3,
+    "corrected_minor_count": 3,
+    "materiality_direction_count": 31,
+    "materiality_witness_count": 2,
+    "largest_relative_correction_lower": {
+      "numerator": 7568816278373741,
+      "denominator": 413272176438128128
+    }
+  },
+  "status": {
+    "common_rational_box_exactly_matched_across_inputs": true,
+    "unique_parameterized_joint_root_over_closed_box_certified": true,
+    "corrected_metric_positive_on_closed_box_certified": true,
+    "nonempty_open_six_real_dimensional_chart_neighborhood_certified": true,
+    "corrected_metric_positive_on_open_neighborhood_certified": true,
+    "open_neighborhood_contains_half_open_one_sided_path_subsegment": true,
+    "independent_correction_materiality_at_least_one_percent_certified": true,
+    "open_tube_along_entire_1_49985_to_1_5_path_certified": false,
+    "global_corrected_metric_positivity_certified": false,
+    "global_ricci_or_monge_ampere_error_bound_certified": false
+  },
+  "scope": [
+    "The theorem is a nonempty open neighborhood in one local three-complex-dimensional chart at d=1.5.",
+    "The closed rational box B carries the interval proof; positivity on its interior U follows by restriction.",
+    "The radius 1e-9 is the conservative common radius of the independent root, baseline, correction, and materiality certificates; no optimality is claimed.",
+    "This is not an open tube along the full continuation path and is not a global Calabi-Yau positivity theorem."
+  ]
+}

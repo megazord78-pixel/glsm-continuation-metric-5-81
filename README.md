@@ -1,85 +1,67 @@
-# Interval-certified corrected GLSM metric on the `(5,81)` model
+# Interval-certified corrected GLSM metric on CY `(5,81)`
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21923926.svg)](https://doi.org/10.5281/zenodo.21923926)
+This standalone `v2.0.0` research package consolidates the earlier central-path
+calculation, its independently reconstructed endpoint, and the product-tube
+extension into one computer-assisted theorem hierarchy:
 
-This is the standalone `v1.0.1` research release accompanying:
+> On the disclosed GLSM chart and for the exactly specified gauge-invariant
+> Kähler ansatz, there is one locally unique parameterized implicit root branch,
+> and the corrected Hermitian metric is positive on
+>
+> `t in [-3/20000, 0]` and `u in [-1/100000000, 1/100000000]^5`.
 
-> Evgeniy Agafonov, *An Interval-Certified Positivity Theorem for a
-> Corrected GLSM Metric along a Calabi--Yau Continuation Path* (2026).
+The package separates two verification levels:
 
-The central computer-assisted theorem is
+- `python verify_release.py --quick` authenticates the immutable release,
+  verifies all exact rational root margins, the complete product tiling,
+  longitudinal branch gluing, and all stored directed metric-minor intervals;
+- `python verify_release.py --full` additionally regenerates the Arb root and
+  metric enclosures from the frozen formula inputs. This mode requires
+  `python-flint==0.9.0` / FLINT `3.6.0` and is intentionally much slower.
 
-\[
-d\in[1.49985,1.5],\qquad G_{\mathrm{corr}}(d)\succ0.
-\]
+The quick verifier is a last-mile exact checker. It does not claim to regenerate
+the Arb formula enclosures.
 
-Here `corrected` means the exact frozen gauge-invariant `ddbar` ansatz stated
-in the manuscript.  It does not mean that a complete physical alpha-prime
-correction has been derived.
+The full Arb regeneration has completed all 1,084 root parents and all 34,688
+metric children, with exact equality of every proof-relevant field to the
+archived release.  The quick verifier additionally replays an independent
+83-real endpoint root and metric reconstruction and a fixed 31-direction
+materiality test.  Two directions have a certified relative correction above
+one percent; the largest lower bound is `0.0183143620836...`.
 
-## Evidence at a glance
+## Certified domain
 
-- one 83-real implicit branch covered by 7 Krawczyk patches and 7 bridges;
-- every robust componentwise Krawczyk ratio is strictly below `0.85`;
-- 6 metric patches and 1003 exactly adjacent interval segments;
-- three strictly positive leading-principal-minor lower bounds per segment;
-- 18 independently reconstructed positive minors on the weakest segment of
-  each metric patch;
-- an independent endpoint root and exact-rational determinant replay;
-- a fixed-direction relative correction lower bound above `1.83%`;
-- zero unresolved or ambiguous SHA-256 edges in the proof provenance graph.
+The longitudinal path is
 
-## Verify the release
+`d in [1.49985, 1.5]`, equivalently `t=d-1.5 in [-3/20000,0]`.
 
-Python 3.11 or later is the only requirement:
+Five real transverse coordinates satisfy
 
-```powershell
-python verify_release.py
-```
+`u_i in [-1e-8,1e-8]`.
 
-The command authenticates every release file, runs the dependency-free
-central checker, and executes mutation tests.  It does not regenerate the
-heavy Arb enclosures.
-
-An installed package also exposes:
-
-```powershell
-verify-glsm-metric-certificate
-```
-
-## Repository structure
-
-- `manuscript/main.tex` — complete article;
-- `manuscript/references.bib` — bibliography;
-- `results/` — exact interval and provenance records;
-- `data/frozen_correction_parameters.json` — the complete exact-rational
-  frozen correction ansatz (2 coefficients, 2 feature scales, 85 direction
-  entries, and 85 reference weights);
-- `models/string_5_81_glsm_continuation_chain_independent_verifier.py` —
-  stdlib-only proof replay;
-- `tests/` — positive and negative mutation tests;
-- `docs/TRUST_MODEL.md` — trusted base and evidence boundary;
-- `docs/CERTIFICATE_SCHEMA.md` — proof-record format;
-- `docs/PUBLICATION_CHECKLIST.md` — public-release and submission sequence;
-- `MANIFEST.sha256.json` — complete byte-level release binding.
+There are 1,084 parent root boxes and 34,688 metric child boxes. The 32
+children at each path centre exactly tile the five-dimensional transverse cube.
 
 ## Scope boundary
 
-The theorem concerns a one-dimensional trajectory in a disclosed toric
-hypersurface chart.  It does not prove positivity on an open tube, positivity
-on the full compact hypersurface, global Ricci flatness, a global
-Monge--Ampere error bound, or a complete physical string vacuum.
+This package does **not** certify global positivity on the compact
+Calabi--Yau, Ricci flatness, approximation error to the canonical Ricci-flat
+metric, a complete physical alpha-prime correction, or a physical string
+vacuum.
 
-The 1003-segment layer replays serialized Arb bounds exactly.  A second
-formula implementation covers one deterministically selected weak segment
-from each of the six patches, not all 1003 segments, and reuses the certified
-root boxes.  These independence boundaries are part of the scientific claim.
+## Layout
 
-## Citation and license
+- `data/` — compressed proof records and exact frozen inputs;
+- `data/endpoint_validation/` — independent endpoint and materiality evidence;
+- `src/glsmtube/` — dependency-free quick verifier;
+- `regeneration/` — optional Arb formula regeneration;
+- `tests/` — positive and fail-closed mutation tests;
+- `docs/` — certificate schema, gluing lemma, trust model and reproducibility;
+- `manuscript/` — article source and compiled PDF;
+- `MANIFEST.sha256.json` — immutable byte-level release binding.
 
-Citation metadata are in `CITATION.cff`.  Code and verification material are
-distributed under the BSD 3-Clause License.  The archived release DOI is
-[`10.5281/zenodo.21923926`](https://doi.org/10.5281/zenodo.21923926).
-Release `v1.0.1` is an
-archive-integration update: it does not alter the theorem, proof records, or
-numerical bounds.
+## Citation
+
+Citation metadata are provided in `CITATION.cff`. Code is BSD-3-Clause. The
+archival DOI for version 2.0.0 will be inserted only after the immutable release
+has been deposited.

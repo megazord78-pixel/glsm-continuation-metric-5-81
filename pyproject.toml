@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "glsm-continuation-metric-5-81"
-version = "1.0.1"
-description = "Portable verifier for an interval-certified corrected GLSM metric continuation theorem"
+name = "glsm-product-tube-metric-5-81"
+version = "2.0.0"
+description = "Exact verifier for an open product-tube corrected GLSM metric theorem"
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "BSD-3-Clause"}
@@ -13,15 +13,14 @@ authors = [
   {name = "Evgeniy Agafonov", email = "my@eagafonov.ru"}
 ]
 classifiers = [
-  "Development Status :: 3 - Alpha",
+  "Development Status :: 4 - Beta",
   "License :: OSI Approved :: BSD License",
   "Programming Language :: Python :: 3",
   "Topic :: Scientific/Engineering :: Mathematics"
 ]
 
 [project.scripts]
-verify-glsm-metric-certificate = "models.string_5_81_glsm_continuation_chain_independent_verifier:main"
+verify-glsm-product-tube = "glsmtube.verify:main"
 
 [tool.setuptools.packages.find]
-where = ["."]
-include = ["models*"]
+where = ["src"]

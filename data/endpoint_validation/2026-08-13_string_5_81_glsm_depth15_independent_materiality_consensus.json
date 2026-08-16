@@ -1,0 +1,1631 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "generator_sha256": "ff879a54185948a109cdd0de6547ed9ddf0cd486c6b735d85ae49871e0748054",
+    "nested_material_box_sha256": "c2951c5258f916e1c2ae0389bc1baf9f2219a594cb5d7ce814a715a4846639f9",
+    "independent_joint_verifier_sha256": "d881c7ee27fd29748b0c58fc1d8bf3b9ef7159aab0ff4748563cf87831b8956b",
+    "independent_baseline_metric_sha256": "270017ac52c93c432feb4c55fe94ce17ede156b4c9119802aca4a1849d4439df",
+    "direction_helper_sha256": "e23bbac1c585dc5009210753a6a5396eb12c9767acbf7d4756afdc0e32f7e028",
+    "fraction_interval_helper_sha256": "212a33275cfaf333aac7b177616e0baa20dcd6c3ed33d71a744334bfdc2693dd"
+  },
+  "protocol": {
+    "direction_rule": "axes; all Gaussian-unit phased pairs; all Gaussian-unit phased triples",
+    "direction_count": 31,
+    "target_relative_lower_bound": {
+      "numerator": 1,
+      "denominator": 100
+    },
+    "correction_source": "formula-independent joint 83-real interval derivative implementation",
+    "baseline_source": "formula-independent quotient-metric interval implementation on joint-root image",
+    "historical_preregistration_claimed": false
+  },
+  "records": [
+    {
+      "label": "axis_0",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -3258522957281115,
+          "denominator": 18446744073709551616
+        },
+        {
+          "numerator": -1469576923724717,
+          "denominator": 9223372036854775808
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 7448684255454161,
+          "denominator": 576460752303423488
+        },
+        {
+          "numerator": 7452376216462291,
+          "denominator": 576460752303423488
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 1469576923724717,
+          "denominator": 119238019463396656
+        },
+        {
+          "numerator": 3258522957281115,
+          "denominator": 238357896174533152
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": true
+    },
+    {
+      "label": "axis_1",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 0,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -3520133450206483,
+          "denominator": 73786976294838206464
+        },
+        {
+          "numerator": 1207701154675063,
+          "denominator": 36893488147419103232
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 4734598372548307,
+          "denominator": 144115188075855872
+        },
+        {
+          "numerator": 4735465464462037,
+          "denominator": 144115188075855872
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 3520133450206483,
+          "denominator": 2424114366744733184
+        }
+      ],
+      "correction_quadratic_excludes_zero": false,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "axis_2",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 0,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -3177221601819023,
+          "denominator": 36893488147419103232
+        },
+        {
+          "numerator": -871521126546631,
+          "denominator": 18446744073709551616
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 3482683236400975,
+          "denominator": 288230376151711744
+        },
+        {
+          "numerator": 217777940680693,
+          "denominator": 18014398509481984
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 871521126546631,
+          "denominator": 223004611257029632
+        },
+        {
+          "numerator": 3177221601819023,
+          "denominator": 445783454259324800
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "pair_0_1_phase_0",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -14737120352250563,
+          "denominator": 73786976294838206464
+        },
+        {
+          "numerator": -49976676641455,
+          "denominator": 18446744073709551616
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 98571084382910041,
+          "denominator": 2305843009213693952
+        },
+        {
+          "numerator": 98627230588204675,
+          "denominator": 2305843009213693952
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 9995335328291,
+          "denominator": 157803568941127480
+        },
+        {
+          "numerator": 14737120352250563,
+          "denominator": 3154274700253121312
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "pair_0_1_phase_1",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": -1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -25695531653212733,
+          "denominator": 73786976294838206464
+        },
+        {
+          "numerator": -5579159003763995,
+          "denominator": 36893488147419103232
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 112498032691626637,
+          "denominator": 2305843009213693952
+        },
+        {
+          "numerator": 112554178896921271,
+          "denominator": 2305843009213693952
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 5579159003763995,
+          "denominator": 1800866862350740336
+        },
+        {
+          "numerator": 25695531653212733,
+          "denominator": 3599937046132052384
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "pair_0_1_phase_2",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 1
+        },
+        {
+          "real": 0,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -29489425867133333,
+          "denominator": 147573952589676412928
+        },
+        {
+          "numerator": -6337634024057029,
+          "denominator": 73786976294838206464
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 425118897926814669,
+          "denominator": 9223372036854775808
+        },
+        {
+          "numerator": 212621879667170871,
+          "denominator": 4611686018427387904
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 6337634024057029,
+          "denominator": 3401950074674733936
+        },
+        {
+          "numerator": 29489425867133333,
+          "denominator": 6801902366829034704
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "pair_0_1_phase_3",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": -1
+        },
+        {
+          "real": 0,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -4889451083930381,
+          "denominator": 18446744073709551616
+        },
+        {
+          "numerator": -22301450852423773,
+          "denominator": 147573952589676412928
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 209628646892491753,
+          "denominator": 4611686018427387904
+        },
+        {
+          "numerator": 419382155192510579,
+          "denominator": 9223372036854775808
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 22301450852423773,
+          "denominator": 6710114483080169264
+        },
+        {
+          "numerator": 4889451083930381,
+          "denominator": 838514587569967012
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "pair_0_2_phase_0",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -8444643104344225,
+          "denominator": 18446744073709551616
+        },
+        {
+          "numerator": -13132115286331709,
+          "denominator": 36893488147419103232
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 11234374747343461,
+          "denominator": 288230376151711744
+        },
+        {
+          "numerator": 1405167466289997,
+          "denominator": 36028797018963968
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 13132115286331709,
+          "denominator": 1438891485480956928
+        },
+        {
+          "numerator": 8444643104344225,
+          "denominator": 718999983829981504
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "pair_0_2_phase_1",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 0
+        },
+        {
+          "real": -1,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -2091751089020837,
+          "denominator": 18446744073709551616
+        },
+        {
+          "numerator": -426331255684933,
+          "denominator": 36893488147419103232
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 3176320792930313,
+          "denominator": 288230376151711744
+        },
+        {
+          "numerator": 795821443976707,
+          "denominator": 72057594037927936
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 426331255684933,
+          "denominator": 407460579316073984
+        },
+        {
+          "numerator": 2091751089020837,
+          "denominator": 203284530747540032
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "pair_0_2_phase_2",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 1
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -1874357243402501,
+          "denominator": 4611686018427387904
+        },
+        {
+          "numerator": -22706448835121223,
+          "denominator": 73786976294838206464
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 4838461613923591,
+          "denominator": 288230376151711744
+        },
+        {
+          "numerator": 2421516658817157,
+          "denominator": 144115188075855872
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 7568816278373741,
+          "denominator": 413272176438128128
+        },
+        {
+          "numerator": 1874357243402501,
+          "denominator": 77415385822777456
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": true
+    },
+    {
+      "label": "pair_0_2_phase_3",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": -1
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -11924786093625543,
+          "denominator": 73786976294838206464
+        },
+        {
+          "numerator": -2320759517153375,
+          "denominator": 36893488147419103232
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 9574627205615975,
+          "denominator": 288230376151711744
+        },
+        {
+          "numerator": 4789599454663349,
+          "denominator": 144115188075855872
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 2320759517153375,
+          "denominator": 1226137460393817344
+        },
+        {
+          "numerator": 11924786093625543,
+          "denominator": 2451104564637689600
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "pair_1_2_phase_0",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 0,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -41234789454347557,
+          "denominator": 295147905179352825856
+        },
+        {
+          "numerator": 6724856281030843,
+          "denominator": 73786976294838206464
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 46397433918143887,
+          "denominator": 1152921504606846976
+        },
+        {
+          "numerator": 46424714720746917,
+          "denominator": 1152921504606846976
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 41234789454347557,
+          "denominator": 11877743083044835072
+        }
+      ],
+      "correction_quadratic_excludes_zero": false,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "pair_1_2_phase_1",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 0,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": -1,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -8835057565855885,
+          "denominator": 36893488147419103232
+        },
+        {
+          "numerator": -2546245948376151,
+          "denominator": 295147905179352825856
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 57204317124504087,
+          "denominator": 1152921504606846976
+        },
+        {
+          "numerator": 57231597927107117,
+          "denominator": 1152921504606846976
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 2546245948376151,
+          "denominator": 14651289069339421952
+        },
+        {
+          "numerator": 8835057565855885,
+          "denominator": 1830538147984130784
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "pair_1_2_phase_2",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 0,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 1
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -24059308943551725,
+          "denominator": 147573952589676412928
+        },
+        {
+          "numerator": 4773735007572763,
+          "denominator": 147573952589676412928
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 4769486017044829,
+          "denominator": 72057594037927936
+        },
+        {
+          "numerator": 19082569631374715,
+          "denominator": 288230376151711744
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 24059308943551725,
+          "denominator": 9767907362907809792
+        }
+      ],
+      "correction_quadratic_excludes_zero": false,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "pair_1_2_phase_3",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 0,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": -1
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -26664252708934617,
+          "denominator": 147573952589676412928
+        },
+        {
+          "numerator": 2168791242189871,
+          "denominator": 147573952589676412928
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 1706172082484509,
+          "denominator": 72057594037927936
+        },
+        {
+          "numerator": 6829313893133435,
+          "denominator": 288230376151711744
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 26664252708934617,
+          "denominator": 3494240424928274432
+        }
+      ],
+      "correction_quadratic_excludes_zero": false,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_0_0",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -143662886600981453,
+          "denominator": 295147905179352825856
+        },
+        {
+          "numerator": -6911983411564261,
+          "denominator": 73786976294838206464
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 147831173324148147,
+          "denominator": 2305843009213693952
+        },
+        {
+          "numerator": 147954849167887857,
+          "denominator": 2305843009213693952
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 6911983411564261,
+          "denominator": 4734555173372411424
+        },
+        {
+          "numerator": 143662886600981453,
+          "denominator": 18922390185490962816
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_0_1",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": -1,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -4466392839269173,
+          "denominator": 18446744073709551616
+        },
+        {
+          "numerator": 44552667526417641,
+          "denominator": 295147905179352825856
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 104980508101563363,
+          "denominator": 2305843009213693952
+        },
+        {
+          "numerator": 105104183945303073,
+          "denominator": 2305843009213693952
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 4466392839269173,
+          "denominator": 839844064812506904
+        }
+      ],
+      "correction_quadratic_excludes_zero": false,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_0_2",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 1
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -67695644470994905,
+          "denominator": 147573952589676412928
+        },
+        {
+          "numerator": -15384380902533055,
+          "denominator": 147573952589676412928
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 156492552965935941,
+          "denominator": 2305843009213693952
+        },
+        {
+          "numerator": 156579525475906447,
+          "denominator": 2305843009213693952
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 15384380902533055,
+          "denominator": 10021089630458012608
+        },
+        {
+          "numerator": 67695644470994905,
+          "denominator": 10015523389819900224
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_0_3",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": -1
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -34170728634748851,
+          "denominator": 147573952589676412928
+        },
+        {
+          "numerator": 18140534933712999,
+          "denominator": 147573952589676412928
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 96355831793544773,
+          "denominator": 2305843009213693952
+        },
+        {
+          "numerator": 96442804303515279,
+          "denominator": 2305843009213693952
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 34170728634748851,
+          "denominator": 6166773234786865472
+        }
+      ],
+      "correction_quadratic_excludes_zero": false,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_1_0",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": -1,
+          "imag": 0
+        },
+        {
+          "real": 1,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -27117775359666207,
+          "denominator": 36893488147419103232
+        },
+        {
+          "numerator": -100927249922605247,
+          "denominator": 295147905179352825856
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 183371888045585143,
+          "denominator": 2305843009213693952
+        },
+        {
+          "numerator": 183495563889324853,
+          "denominator": 2305843009213693952
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 100927249922605247,
+          "denominator": 23487432177833581184
+        },
+        {
+          "numerator": 27117775359666207,
+          "denominator": 2933950208729362288
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_1_1",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": -1,
+          "imag": 0
+        },
+        {
+          "real": -1,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -85850259559655925,
+          "denominator": 295147905179352825856
+        },
+        {
+          "numerator": 7541173348767121,
+          "denominator": 73786976294838206464
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 97293689997559559,
+          "denominator": 2305843009213693952
+        },
+        {
+          "numerator": 97417365841299269,
+          "denominator": 2305843009213693952
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 85850259559655925,
+          "denominator": 12453592319687623552
+        }
+      ],
+      "correction_quadratic_excludes_zero": false,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_1_2",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": -1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 1
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -92217410838302137,
+          "denominator": 147573952589676412928
+        },
+        {
+          "numerator": -39906147269840287,
+          "denominator": 147573952589676412928
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 72393455368722297,
+          "denominator": 2305843009213693952
+        },
+        {
+          "numerator": 72480427878692803,
+          "denominator": 2305843009213693952
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 39906147269840287,
+          "denominator": 4638747384236339392
+        },
+        {
+          "numerator": 92217410838302137,
+          "denominator": 4633181143598227008
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_1_3",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": -1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": -1
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -53482607471290299,
+          "denominator": 147573952589676412928
+        },
+        {
+          "numerator": -1171343902828449,
+          "denominator": 147573952589676412928
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 208308826008191609,
+          "denominator": 2305843009213693952
+        },
+        {
+          "numerator": 208395798518162115,
+          "denominator": 2305843009213693952
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 55778281087069,
+          "denominator": 635111005007732160
+        },
+        {
+          "numerator": 53482607471290299,
+          "denominator": 13331764864524262976
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_2_0",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 1
+        },
+        {
+          "real": 1,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -19473371611220943,
+          "denominator": 36893488147419103232
+        },
+        {
+          "numerator": -37380342777982755,
+          "denominator": 147573952589676412928
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 469369808904633149,
+          "denominator": 9223372036854775808
+        },
+        {
+          "numerator": 234847280233684527,
+          "denominator": 4611686018427387904
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 12460114259327585,
+          "denominator": 2505037655825968288
+        },
+        {
+          "numerator": 19473371611220943,
+          "denominator": 1877479235618532596
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_2_1",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 1
+        },
+        {
+          "real": -1,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -1529087909807111,
+          "denominator": 9223372036854775808
+        },
+        {
+          "numerator": 16047737109987241,
+          "denominator": 147573952589676412928
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 603616265987133373,
+          "denominator": 9223372036854775808
+        },
+        {
+          "numerator": 301970508774934639,
+          "denominator": 4611686018427387904
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 1529087909807111,
+          "denominator": 603616265987133373
+        }
+      ],
+      "correction_quadratic_excludes_zero": false,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_2_2",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 1
+        },
+        {
+          "real": 0,
+          "imag": 1
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -128537830834498331,
+          "denominator": 295147905179352825856
+        },
+        {
+          "numerator": -9491928991513275,
+          "denominator": 73786976294838206464
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 417490033422331253,
+          "denominator": 9223372036854775808
+        },
+        {
+          "numerator": 208904214223566643,
+          "denominator": 4611686018427387904
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 9491928991513275,
+          "denominator": 3342467427577066288
+        },
+        {
+          "numerator": 128537830834498331,
+          "denominator": 13359681069514600096
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_2_3",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": 1
+        },
+        {
+          "real": 0,
+          "imag": -1
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -42861891351869981,
+          "denominator": 147573952589676412928
+        },
+        {
+          "numerator": 4846332164705269,
+          "denominator": 295147905179352825856
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 655502398007369141,
+          "denominator": 9223372036854775808
+        },
+        {
+          "numerator": 327910396516085587,
+          "denominator": 4611686018427387904
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 42861891351869981,
+          "denominator": 10488038368117906256
+        }
+      ],
+      "correction_quadratic_excludes_zero": false,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_3_0",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": -1
+        },
+        {
+          "real": 1,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -84914725483810595,
+          "denominator": 147573952589676412928
+        },
+        {
+          "numerator": -22200790908454789,
+          "denominator": 73786976294838206464
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 427806194193261473,
+          "denominator": 4611686018427387904
+        },
+        {
+          "numerator": 855937139949258851,
+          "denominator": 9223372036854775808
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 22200790908454789,
+          "denominator": 6847497119594070808
+        },
+        {
+          "numerator": 84914725483810595,
+          "denominator": 13689798214184367136
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_3_1",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": -1
+        },
+        {
+          "real": -1,
+          "imag": 0
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -36696533126606383,
+          "denominator": 147573952589676412928
+        },
+        {
+          "numerator": 1908305270147317,
+          "denominator": 73786976294838206464
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 102825239110790625,
+          "denominator": 4611686018427387904
+        },
+        {
+          "numerator": 205975229784317155,
+          "denominator": 9223372036854775808
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 36696533126606383,
+          "denominator": 3290407651545300000
+        }
+      ],
+      "correction_quadratic_excludes_zero": false,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_3_2",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": -1
+        },
+        {
+          "real": 0,
+          "imag": 1
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -44308966878904321,
+          "denominator": 73786976294838206464
+        },
+        {
+          "numerator": -86665752647172053,
+          "denominator": 295147905179352825856
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 249041747465690845,
+          "denominator": 4611686018427387904
+        },
+        {
+          "numerator": 498401889956183723,
+          "denominator": 9223372036854775808
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 86665752647172053,
+          "denominator": 15948860478597879136
+        },
+        {
+          "numerator": 44308966878904321,
+          "denominator": 3984667959451053520
+        }
+      ],
+      "correction_quadratic_excludes_zero": true,
+      "relative_correction_at_least_one_percent_certified": false
+    },
+    {
+      "label": "triple_phase_3_3",
+      "component_gaussian_integer_pairs": [
+        {
+          "real": 1,
+          "imag": 0
+        },
+        {
+          "real": 0,
+          "imag": -1
+        },
+        {
+          "real": 0,
+          "imag": -1
+        }
+      ],
+      "independent_correction_quadratic_interval": [
+        {
+          "numerator": -75530477239859869,
+          "denominator": 295147905179352825856
+        },
+        {
+          "numerator": 7519818814292681,
+          "denominator": 147573952589676412928
+        }
+      ],
+      "independent_baseline_quadratic_interval": [
+        {
+          "numerator": 281592864107328189,
+          "denominator": 4611686018427387904
+        },
+        {
+          "numerator": 563504123239458411,
+          "denominator": 9223372036854775808
+        }
+      ],
+      "absolute_relative_interval": [
+        {
+          "numerator": 0,
+          "denominator": 1
+        },
+        {
+          "numerator": 75530477239859869,
+          "denominator": 18021943302869004096
+        }
+      ],
+      "correction_quadratic_excludes_zero": false,
+      "relative_correction_at_least_one_percent_certified": false
+    }
+  ],
+  "independent_corrected_metric_fraction_interval_minors": [
+    {
+      "dimension": 1,
+      "real_lower": {
+        "numerator": 235099373217252037,
+        "denominator": 18446744073709551616
+      },
+      "real_upper": {
+        "numerator": 117768442539671939,
+        "denominator": 9223372036854775808
+      },
+      "imaginary_lower": {
+        "numerator": -68079207950843913,
+        "denominator": 37778931862957161709568
+      },
+      "imaginary_upper": {
+        "numerator": 68079207950843913,
+        "denominator": 37778931862957161709568
+      },
+      "strictly_positive": true
+    },
+    {
+      "dimension": 2,
+      "real_lower": {
+        "numerator": 296731896827071650287521739600888128044759,
+        "denominator": 713623846352979940529142984724747568191373312
+      },
+      "real_upper": {
+        "numerator": 298193992272474520191510534181448155914537,
+        "denominator": 713623846352979940529142984724747568191373312
+      },
+      "imaginary_lower": {
+        "numerator": -307962545560221353016790960916194311,
+        "denominator": 1393796574908163946345982392040522594123776
+      },
+      "imaginary_upper": {
+        "numerator": 307962545560221353016790960916194311,
+        "denominator": 1393796574908163946345982392040522594123776
+      },
+      "strictly_positive": true
+    },
+    {
+      "dimension": 3,
+      "real_lower": {
+        "numerator": 38686858745539252643431875011058904575975513932507337241875,
+        "denominator": 26328072917139296674479506920917608079723773850137277813577744384
+      },
+      "real_upper": {
+        "numerator": 20635157904215936749874315472392668860521275832485725786129,
+        "denominator": 13164036458569648337239753460458804039861886925068638906788872192
+      },
+      "imaginary_lower": {
+        "numerator": -138747557510012632414592217096242514566225839708795938539705,
+        "denominator": 3369993333393829974333376885877453834204643052817571560137951281152
+      },
+      "imaginary_upper": {
+        "numerator": 138751282047769717417410393748252262218467682771985363547065,
+        "denominator": 3369993333393829974333376885877453834204643052817571560137951281152
+      },
+      "strictly_positive": true
+    }
+  ],
+  "summary": {
+    "certified_witness_count": 2,
+    "certified_witness_labels": [
+      "axis_0",
+      "pair_0_2_phase_2"
+    ],
+    "largest_independent_relative_lower": {
+      "numerator": 7568816278373741,
+      "denominator": 413272176438128128
+    },
+    "largest_independent_relative_lower_float": 0.018314362083620417
+  },
+  "status": {
+    "independent_joint_correction_materiality_at_least_one_percent_certified": true,
+    "independent_root_existence_proof_obtained": true,
+    "primary_root_existence_certificate_reused": false,
+    "primary_baseline_metric_enclosure_reused": false,
+    "local_independent_corrected_metric_positive_definite_certified": true,
+    "global_corrected_metric_positivity_certified": false,
+    "global_ricci_or_monge_ampere_error_bound_certified": false
+  },
+  "scope": [
+    "The correction Hessian is rebuilt by the independent joint-system interval implementation.",
+    "Root existence, correction derivatives, and baseline quotient metric use independent interval implementations over common raw inputs.",
+    "The result is local to the nested depth-1.5 box."
+  ]
+}
