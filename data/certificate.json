@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "release_version": "2.0.0",
+  "theorem": {
+    "parameter_domain": "t in [-3/20000,0], u in [-1/100000000,1/100000000]^5",
+    "permitted_claim": "In the selected GLSM chart, for the exactly specified gauge-invariant Kahler ansatz, a locally unique parameterized root and positivity of the corrected Hermitian metric are certified on the stated open product neighborhood along the path.",
+    "parent_exact_root_box_count": 1084,
+    "metric_child_box_count": 34688,
+    "exact_componentwise_root_inclusion_count": 89972,
+    "longitudinal_gluing_edge_count": 1083,
+    "minimum_componentwise_root_margin_exact": "9335426793689657913651/10910555522022028301723238400000",
+    "minimum_metric_third_minor_lower_exact": "2100827914296867/18889465931478580854784",
+    "minimum_longitudinal_overlap_width_exact": "27/18050000000",
+    "maximum_robust_anchor_to_parent_radius_ratio_exact": "146013824139625356625/244296187218972043640832",
+    "minimum_metric_first_minor_lower_exact": "3459225413190877/288230376151711744",
+    "minimum_metric_second_minor_lower_exact": "6861360338265545/18446744073709551616"
+  },
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "python_flint_version": "0.9.0",
+    "flint_version": "3.6.0",
+    "operating_system": "Windows-11-10.0.26200-SP0",
+    "arb_precision_decimal_digits": 100,
+    "worker_count": 8,
+    "root_replay_elapsed_seconds_from_checkpoint_timestamps": 1510.046541929245,
+    "peak_memory_bytes": null,
+    "peak_memory_note": "not instrumented; optional reproducibility enhancement, not a proof input",
+    "root_replay_cache_used": false,
+    "metric_replay_cache_used": true,
+    "cache_equivalence_scope": "eight frozen cases; exact equality, not a full independent formula replication"
+  },
+  "scope": {
+    "selected_glsm_chart_and_frozen_ansatz_certified": true,
+    "open_six_real_dimensional_product_neighborhood_certified": true,
+    "global_cy_positivity_certified": false,
+    "ricci_flatness_certified": false,
+    "physical_vacuum_certified": false
+  },
+  "proof_files": {
+    "root_certificate": "root_certificate.json.gz",
+    "metric_certificate": "metric_certificate.json.gz",
+    "tube_grid": "tube_grid.json",
+    "robust_chain": "robust_chain.json",
+    "corner_tiling": "corner_tiling.json",
+    "exact_integer_geometry": "exact_integer_geometry.json",
+    "independent_endpoint_validation": "endpoint_validation/2026-08-13_string_5_81_glsm_depth15_open_neighborhood_certificate.json"
+  }
+}

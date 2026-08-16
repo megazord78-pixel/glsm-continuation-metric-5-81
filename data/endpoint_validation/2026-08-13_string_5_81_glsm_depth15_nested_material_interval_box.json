@@ -1,0 +1,1873 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "generator_sha256": "5c7bdc7b1f467eae30703c6d3e86b63686be2730cfd8077533d57cb5185e8123",
+    "adaptive_ladder_sha256": "1346135c2d5ba3db5be44981c2c7c2569644c430d35793febff2d9a1ff6500e3"
+  },
+  "protocol": {
+    "target_depth": 1.5,
+    "free_radius": "1e-9",
+    "eliminated_radius": "1e-8",
+    "dterm_radius": "1e-8",
+    "radius_selected_from_preexisting_ladder": true,
+    "candidate_coefficients_refit": false
+  },
+  "exact_center": {
+    "free_center_rational_pairs": [
+      {
+        "numerator": -3,
+        "denominator": 2
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      },
+      {
+        "numerator": 0,
+        "denominator": 1
+      }
+    ],
+    "eliminated_center_rational_pairs": [
+      {
+        "numerator": 6057691410949749,
+        "denominator": 36028797018963968
+      },
+      {
+        "numerator": 1221266234498461,
+        "denominator": 562949953421312
+      }
+    ],
+    "dterm_center_rational_pairs": [
+      {
+        "numerator": 5259310304849955,
+        "denominator": 1125899906842624
+      },
+      {
+        "numerator": 4749930619792569,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": 1184544860694879,
+        "denominator": 1125899906842624
+      },
+      {
+        "numerator": 4738194654370933,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": 1178664589512553,
+        "denominator": 1125899906842624
+      },
+      {
+        "numerator": 4714716587273177,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": 2351443817424907,
+        "denominator": 2251799813685248
+      },
+      {
+        "numerator": 6247730639267701,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": 6243521269645551,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": 1560881502796815,
+        "denominator": 1125899906842624
+      },
+      {
+        "numerator": 6235116802471999,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": 3117568516053185,
+        "denominator": 2251799813685248
+      },
+      {
+        "numerator": 3115460497265649,
+        "denominator": 2251799813685248
+      },
+      {
+        "numerator": 4812140634273081,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -3605269251970143,
+        "denominator": 72057594037927936
+      },
+      {
+        "numerator": -7211369349414703,
+        "denominator": 144115188075855872
+      },
+      {
+        "numerator": 149760671731405,
+        "denominator": 281474976710656
+      },
+      {
+        "numerator": 2396153054902577,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": 4782449529971851,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -3888035893924841,
+        "denominator": 72057594037927936
+      },
+      {
+        "numerator": 4782504137133231,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": 4792431992111759,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": 1198109676281645,
+        "denominator": 2251799813685248
+      },
+      {
+        "numerator": 2381310992964901,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": 4762752818933127,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": 4752774350459993,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": 4752848255380975,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -4172272132570021,
+        "denominator": 72057594037927936
+      },
+      {
+        "numerator": -4171273533146859,
+        "denominator": 72057594037927936
+      },
+      {
+        "numerator": -8915394469336577,
+        "denominator": 144115188075855872
+      },
+      {
+        "numerator": -8914082253855615,
+        "denominator": 144115188075855872
+      },
+      {
+        "numerator": -593027432003951,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -2371874308298643,
+        "denominator": 36028797018963968
+      },
+      {
+        "numerator": 295813176081761,
+        "denominator": 562949953421312
+      },
+      {
+        "numerator": 4733035348468507,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": 4722970479516769,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": 4723158755056203,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": 4693221503184567,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": 4693239569779589,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": 4703147525399481,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -1257679813597099,
+        "denominator": 18014398509481984
+      },
+      {
+        "numerator": 2351646626733911,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": 293320112072477,
+        "denominator": 562949953421312
+      },
+      {
+        "numerator": 4693278089879365,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -1329931896260673,
+        "denominator": 18014398509481984
+      },
+      {
+        "numerator": -5318971068047527,
+        "denominator": 72057594037927936
+      },
+      {
+        "numerator": 4673172734196951,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": 4673309240820125,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -7803263539611371,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -2401319147846829,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": -2401042350034499,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": -4832356403352949,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -4832508502898795,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -4860501003217239,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -2430569877708937,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": -4917343444064367,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -614888365256973,
+        "denominator": 1125899906842624
+      },
+      {
+        "numerator": -2444783057084313,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": -4918193422622875,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -4918160544673707,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -2488147173527223,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": -2488408049801937,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": -1251543485616887,
+        "denominator": 2251799813685248
+      },
+      {
+        "numerator": -4976544562284895,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -1244148259557669,
+        "denominator": 2251799813685248
+      },
+      {
+        "numerator": -5036083828656869,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -5035270194614497,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -5064359698599637,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -5065053931466233,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -159179147916793,
+        "denominator": 281474976710656
+      },
+      {
+        "numerator": -5093742385650881,
+        "denominator": 9007199254740992
+      },
+      {
+        "numerator": -640434680743671,
+        "denominator": 1125899906842624
+      },
+      {
+        "numerator": 4884455309406313,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": 1221098415331623,
+        "denominator": 1125899906842624
+      },
+      {
+        "numerator": 2440807697061663,
+        "denominator": 2251799813685248
+      },
+      {
+        "numerator": 4878777285237845,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": 2437969020763149,
+        "denominator": 2251799813685248
+      },
+      {
+        "numerator": 2436542515288839,
+        "denominator": 2251799813685248
+      },
+      {
+        "numerator": 4873089966859239,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": 4870248051528841,
+        "denominator": 4503599627370496
+      },
+      {
+        "numerator": 4867404549846417,
+        "denominator": 4503599627370496
+      }
+    ]
+  },
+  "hypersurface_interval_newton": {
+    "derivative_excludes_zero": true,
+    "strict_interior_inclusion": true,
+    "newton_image_directed_rational_bounds": {
+      "real": {
+        "lower": {
+          "numerator": 6057691326195971,
+          "denominator": 36028797018963968
+        },
+        "upper": {
+          "numerator": 6057691495703523,
+          "denominator": 36028797018963968
+        }
+      },
+      "imag": {
+        "lower": {
+          "numerator": 4885064932701421,
+          "denominator": 2251799813685248
+        },
+        "upper": {
+          "numerator": 4885064943286267,
+          "denominator": 2251799813685248
+        }
+      }
+    }
+  },
+  "dterm_krawczyk": {
+    "strictly_included_component_count": 81,
+    "component_count": 81,
+    "maximum_image_radius_ratio": 0.45559887095619755,
+    "image_directed_rational_bounds": [
+      {
+        "lower": {
+          "numerator": 5259310302580715,
+          "denominator": 1125899906842624
+        },
+        "upper": {
+          "numerator": 5259310307119195,
+          "denominator": 1125899906842624
+        }
+      },
+      {
+        "lower": {
+          "numerator": 1187482654755487,
+          "denominator": 1125899906842624
+        },
+        "upper": {
+          "numerator": 4749930620563193,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4738179442297513,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 2369089721630751,
+          "denominator": 2251799813685248
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4738194653944523,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 2369097327398665,
+          "denominator": 2251799813685248
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4714658357814399,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 2357329179143009,
+          "denominator": 2251799813685248
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4714716586953517,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 1178679146898211,
+          "denominator": 1125899906842624
+        }
+      },
+      {
+        "lower": {
+          "numerator": 1175721908552333,
+          "denominator": 1125899906842624
+        },
+        "upper": {
+          "numerator": 1175721908872571,
+          "denominator": 1125899906842624
+        }
+      },
+      {
+        "lower": {
+          "numerator": 6247730630125331,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 3123865324205037,
+          "denominator": 2251799813685248
+        }
+      },
+      {
+        "lower": {
+          "numerator": 780440158689969,
+          "denominator": 562949953421312
+        },
+        "upper": {
+          "numerator": 3121760634885675,
+          "denominator": 2251799813685248
+        }
+      },
+      {
+        "lower": {
+          "numerator": 3121763005543225,
+          "denominator": 2251799813685248
+        },
+        "upper": {
+          "numerator": 6243526011288075,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": 6235116802370999,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 779389600321625,
+          "denominator": 562949953421312
+        }
+      },
+      {
+        "lower": {
+          "numerator": 6235137031980335,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 6235137032232401,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": 3115460497147859,
+          "denominator": 2251799813685248
+        },
+        "upper": {
+          "numerator": 6230920994766879,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": 1203035158001677,
+          "denominator": 2251799813685248
+        },
+        "upper": {
+          "numerator": 2406070318269731,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": -7210538561580729,
+          "denominator": 144115188075855872
+        },
+        "upper": {
+          "numerator": -7210538446299647,
+          "denominator": 144115188075855872
+        }
+      },
+      {
+        "lower": {
+          "numerator": -450710587739513,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -1802842323749269,
+          "denominator": 36028797018963968
+        }
+      },
+      {
+        "lower": {
+          "numerator": 2396170746802293,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 4792341497205341,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": 149759565879835,
+          "denominator": 281474976710656
+        },
+        "upper": {
+          "numerator": 4792306111455595,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4782449528475273,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": 4782449531468393,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": -7776071829107319,
+          "denominator": 144115188075855872
+        },
+        "upper": {
+          "numerator": -7776071746593057,
+          "denominator": 144115188075855872
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4782504135712341,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": 4782504138554125,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4792431990117607,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": 599053999263237,
+          "denominator": 1125899906842624
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4792438703206797,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": 2396219353523185,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": 2381310992337373,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 297663874199053,
+          "denominator": 562949953421312
+        }
+      },
+      {
+        "lower": {
+          "numerator": 595344102218267,
+          "denominator": 1125899906842624
+        },
+        "upper": {
+          "numerator": 4762752820120117,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4752774349277233,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": 1188193587910673,
+          "denominator": 2251799813685248
+        }
+      },
+      {
+        "lower": {
+          "numerator": 594106031773953,
+          "denominator": 1125899906842624
+        },
+        "upper": {
+          "numerator": 4752848256570257,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": -8344544306148361,
+          "denominator": 144115188075855872
+        },
+        "upper": {
+          "numerator": -4172272112066473,
+          "denominator": 72057594037927936
+        }
+      },
+      {
+        "lower": {
+          "numerator": -8342547104051441,
+          "denominator": 144115188075855872
+        },
+        "upper": {
+          "numerator": -1042818378566915,
+          "denominator": 18014398509481984
+        }
+      },
+      {
+        "lower": {
+          "numerator": -8915394495779235,
+          "denominator": 144115188075855872
+        },
+        "upper": {
+          "numerator": -8915394442893465,
+          "denominator": 144115188075855872
+        }
+      },
+      {
+        "lower": {
+          "numerator": -8914082281764887,
+          "denominator": 144115188075855872
+        },
+        "upper": {
+          "numerator": -8914082225947105,
+          "denominator": 144115188075855872
+        }
+      },
+      {
+        "lower": {
+          "numerator": -4744219467689737,
+          "denominator": 72057594037927936
+        },
+        "upper": {
+          "numerator": -4744219444373965,
+          "denominator": 72057594037927936
+        }
+      },
+      {
+        "lower": {
+          "numerator": -296484289414337,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": -4743748602564911,
+          "denominator": 72057594037927936
+        }
+      },
+      {
+        "lower": {
+          "numerator": 1183252704102131,
+          "denominator": 2251799813685248
+        },
+        "upper": {
+          "numerator": 2366505409103903,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4733035347485447,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": 295814709340723,
+          "denominator": 562949953421312
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4722970478890511,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": 4722970480143015,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": 1180789688565419,
+          "denominator": 2251799813685248
+        },
+        "upper": {
+          "numerator": 2361579377925347,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": 1173305375447597,
+          "denominator": 2251799813685248
+        },
+        "upper": {
+          "numerator": 586652688072339,
+          "denominator": 1125899906842624
+        }
+      },
+      {
+        "lower": {
+          "numerator": 2346619784150161,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 4693239571258773,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": 587893440575997,
+          "denominator": 1125899906842624
+        },
+        "upper": {
+          "numerator": 293946720386937,
+          "denominator": 562949953421312
+        }
+      },
+      {
+        "lower": {
+          "numerator": -5030719266652871,
+          "denominator": 72057594037927936
+        },
+        "upper": {
+          "numerator": -1257679810531125,
+          "denominator": 18014398509481984
+        }
+      },
+      {
+        "lower": {
+          "numerator": 587911656564431,
+          "denominator": 1125899906842624
+        },
+        "upper": {
+          "numerator": 4703293254420127,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4693121792127331,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": 1173280448547987,
+          "denominator": 2251799813685248
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4693278088600919,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": 4693278091157789,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": -5319727604884941,
+          "denominator": 72057594037927936
+        },
+        "upper": {
+          "numerator": -5319727565199857,
+          "denominator": 72057594037927936
+        }
+      },
+      {
+        "lower": {
+          "numerator": -1329742772578043,
+          "denominator": 18014398509481984
+        },
+        "upper": {
+          "numerator": -5318971045782077,
+          "denominator": 72057594037927936
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4673172732440317,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": 4673172735953599,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4673309238978237,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": 4673309242662009,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": -975407947581003,
+          "denominator": 1125899906842624
+        },
+        "upper": {
+          "numerator": -487703968660917,
+          "denominator": 562949953421312
+        }
+      },
+      {
+        "lower": {
+          "numerator": -4802638300568035,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -2401319145409643,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": -4802084704829405,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -600260586913571,
+          "denominator": 1125899906842624
+        }
+      },
+      {
+        "lower": {
+          "numerator": -2416178204112315,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": -2416178199240629,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": -4832508507447097,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -4832508498350495,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": -4860501007412317,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -4860500999022119,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": -1215284939795447,
+          "denominator": 2251799813685248
+        },
+        "upper": {
+          "numerator": -4861139751653939,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": -4917343447276599,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -2458671720426071,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": -307444182822559,
+          "denominator": 562949953421312
+        },
+        "upper": {
+          "numerator": -307444182434409,
+          "denominator": 562949953421312
+        }
+      },
+      {
+        "lower": {
+          "numerator": -4889566118042161,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -4889566110295109,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": -4918193425927815,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -2459096709658935,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": -4918160547883627,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -614770067682965,
+          "denominator": 1125899906842624
+        }
+      },
+      {
+        "lower": {
+          "numerator": -2488147174729527,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": -2488147172324879,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": -4976816102377947,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -622102012103725,
+          "denominator": 1125899906842624
+        }
+      },
+      {
+        "lower": {
+          "numerator": -1251543486253055,
+          "denominator": 2251799813685248
+        },
+        "upper": {
+          "numerator": -1251543484980713,
+          "denominator": 2251799813685248
+        }
+      },
+      {
+        "lower": {
+          "numerator": -1244136141143057,
+          "denominator": 2251799813685248
+        },
+        "upper": {
+          "numerator": -4976544559997749,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": -4976593040743397,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -2488296517858963,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": -5036083830498841,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -5036083826814875,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": -2517635098588825,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": -629408774006421,
+          "denominator": 1125899906842624
+        }
+      },
+      {
+        "lower": {
+          "numerator": -5064359701504747,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -5064359695694513,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": -5065053934867515,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -5065053928064873,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": -5093732736501081,
+          "denominator": 9007199254740992
+        },
+        "upper": {
+          "numerator": -2546866365086777,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": -636717798632101,
+          "denominator": 1125899906842624
+        },
+        "upper": {
+          "numerator": -5093742382244983,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": -160108670318555,
+          "denominator": 281474976710656
+        },
+        "upper": {
+          "numerator": -5123477441704959,
+          "denominator": 9007199254740992
+        }
+      },
+      {
+        "lower": {
+          "numerator": 1221113825059495,
+          "denominator": 1125899906842624
+        },
+        "upper": {
+          "numerator": 610556914821831,
+          "denominator": 562949953421312
+        }
+      },
+      {
+        "lower": {
+          "numerator": 2442196830560617,
+          "denominator": 2251799813685248
+        },
+        "upper": {
+          "numerator": 4884393661531751,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4881615393985495,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 2440807697130577,
+          "denominator": 2251799813685248
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4878777285109423,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 9528861885481,
+          "denominator": 8796093022208
+        }
+      },
+      {
+        "lower": {
+          "numerator": 2437969020739011,
+          "denominator": 2251799813685248
+        },
+        "upper": {
+          "numerator": 2437969020787287,
+          "denominator": 2251799813685248
+        }
+      },
+      {
+        "lower": {
+          "numerator": 1218271257618077,
+          "denominator": 1125899906842624
+        },
+        "upper": {
+          "numerator": 609135628835381,
+          "denominator": 562949953421312
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4873089966730651,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 4873089966987825,
+          "denominator": 4503599627370496
+        }
+      },
+      {
+        "lower": {
+          "numerator": 1217562012847667,
+          "denominator": 1125899906842624
+        },
+        "upper": {
+          "numerator": 2435124025833511,
+          "denominator": 2251799813685248
+        }
+      },
+      {
+        "lower": {
+          "numerator": 4867404549617141,
+          "denominator": 4503599627370496
+        },
+        "upper": {
+          "numerator": 4867404550075693,
+          "denominator": 4503599627370496
+        }
+      }
+    ]
+  },
+  "entrywise_intervals": {
+    "baseline_metric": [
+      [
+        {
+          "real": {
+            "lower": {
+              "numerator": 7448684243454993,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 7452376228461587,
+              "denominator": 576460752303423488
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -5241174059122689,
+              "denominator": 37778931862957161709568
+            },
+            "upper": {
+              "numerator": 5241174059122689,
+              "denominator": 37778931862957161709568
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": -6977226693625371,
+              "denominator": 4611686018427387904
+            },
+            "upper": {
+              "numerator": -6949721615091225,
+              "denominator": 4611686018427387904
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -5871900366918655,
+              "denominator": 36893488147419103232
+            },
+            "upper": {
+              "numerator": -5851307916743677,
+              "denominator": 36893488147419103232
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": 8054698743886427,
+              "denominator": 1152921504606846976
+            },
+            "upper": {
+              "numerator": 8061409164939869,
+              "denominator": 1152921504606846976
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": 4735203675896927,
+              "denominator": 1152921504606846976
+            },
+            "upper": {
+              "numerator": 4737127507487841,
+              "denominator": 1152921504606846976
+            }
+          }
+        }
+      ],
+      [
+        {
+          "real": {
+            "lower": {
+              "numerator": -6977226693625371,
+              "denominator": 4611686018427387904
+            },
+            "upper": {
+              "numerator": -6949721615091225,
+              "denominator": 4611686018427387904
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": 5851307916743677,
+              "denominator": 36893488147419103232
+            },
+            "upper": {
+              "numerator": 5871900366918655,
+              "denominator": 36893488147419103232
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": 2367299184786273,
+              "denominator": 72057594037927936
+            },
+            "upper": {
+              "numerator": 1183866366859441,
+              "denominator": 36028797018963968
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -7972304361357313,
+              "denominator": 18889465931478580854784
+            },
+            "upper": {
+              "numerator": 7972304361357313,
+              "denominator": 18889465931478580854784
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": -5410086053279297,
+              "denominator": 2305843009213693952
+            },
+            "upper": {
+              "numerator": -5396797153080895,
+              "denominator": 2305843009213693952
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -6127191655712897,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": -6126064082528383,
+              "denominator": 576460752303423488
+            }
+          }
+        }
+      ],
+      [
+        {
+          "real": {
+            "lower": {
+              "numerator": 8054698743886427,
+              "denominator": 1152921504606846976
+            },
+            "upper": {
+              "numerator": 8061409164939869,
+              "denominator": 1152921504606846976
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -4737127507487841,
+              "denominator": 1152921504606846976
+            },
+            "upper": {
+              "numerator": -4735203675896927,
+              "denominator": 1152921504606846976
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": -5410086053279297,
+              "denominator": 2305843009213693952
+            },
+            "upper": {
+              "numerator": -5396797153080895,
+              "denominator": 2305843009213693952
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": 6126064082528383,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 6127191655712897,
+              "denominator": 576460752303423488
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": 6965366461142651,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 6968894113441405,
+              "denominator": 576460752303423488
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -7106767242657793,
+              "denominator": 4722366482869645213696
+            },
+            "upper": {
+              "numerator": 7106767242657793,
+              "denominator": 4722366482869645213696
+            }
+          }
+        }
+      ]
+    ],
+    "correction_metric": [
+      [
+        {
+          "real": {
+            "lower": {
+              "numerator": -814630908654951,
+              "denominator": 4611686018427387904
+            },
+            "upper": {
+              "numerator": -2939153170027931,
+              "denominator": 18446744073709551616
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -7845966589722625,
+              "denominator": 4722366482869645213696
+            },
+            "upper": {
+              "numerator": 7845966589722625,
+              "denominator": 4722366482869645213696
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": 3652682239978115,
+              "denominator": 295147905179352825856
+            },
+            "upper": {
+              "numerator": 2283017545221457,
+              "denominator": 36893488147419103232
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -1470398841681895,
+              "denominator": 73786976294838206464
+            },
+            "upper": {
+              "numerator": -7489174875127605,
+              "denominator": 590295810358705651712
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": -898365317830207,
+              "denominator": 9223372036854775808
+            },
+            "upper": {
+              "numerator": -2759430744004859,
+              "denominator": 36893488147419103232
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": 3792293312784921,
+              "denominator": 73786976294838206464
+            },
+            "upper": {
+              "numerator": 2620085793813773,
+              "denominator": 36893488147419103232
+            }
+          }
+        }
+      ],
+      [
+        {
+          "real": {
+            "lower": {
+              "numerator": 3652682239978115,
+              "denominator": 295147905179352825856
+            },
+            "upper": {
+              "numerator": 2283017545221457,
+              "denominator": 36893488147419103232
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": 7489174875127605,
+              "denominator": 590295810358705651712
+            },
+            "upper": {
+              "numerator": 1470398841681895,
+              "denominator": 73786976294838206464
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": -3493165241539079,
+              "denominator": 73786976294838206464
+            },
+            "upper": {
+              "numerator": 1194217050305277,
+              "denominator": 36893488147419103232
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -8263069805314049,
+              "denominator": 1180591620717411303424
+            },
+            "upper": {
+              "numerator": 8263069805314049,
+              "denominator": 1180591620717411303424
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": -4488802040050685,
+              "denominator": 2361183241434822606848
+            },
+            "upper": {
+              "numerator": 7641967895705793,
+              "denominator": 147573952589676412928
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -5784802483780923,
+              "denominator": 295147905179352825856
+            },
+            "upper": {
+              "numerator": 1589929359303011,
+              "denominator": 147573952589676412928
+            }
+          }
+        }
+      ],
+      [
+        {
+          "real": {
+            "lower": {
+              "numerator": -898365317830207,
+              "denominator": 9223372036854775808
+            },
+            "upper": {
+              "numerator": -2759430744004859,
+              "denominator": 36893488147419103232
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -2620085793813773,
+              "denominator": 36893488147419103232
+            },
+            "upper": {
+              "numerator": -3792293312784921,
+              "denominator": 73786976294838206464
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": -4488802040050685,
+              "denominator": 2361183241434822606848
+            },
+            "upper": {
+              "numerator": 7641967895705793,
+              "denominator": 147573952589676412928
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -1589929359303011,
+              "denominator": 147573952589676412928
+            },
+            "upper": {
+              "numerator": 5784802483780923,
+              "denominator": 295147905179352825856
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": -6163418745081107,
+              "denominator": 73786976294838206464
+            },
+            "upper": {
+              "numerator": -1838554482443913,
+              "denominator": 36893488147419103232
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -5407367642480641,
+              "denominator": 295147905179352825856
+            },
+            "upper": {
+              "numerator": 5407367642480641,
+              "denominator": 295147905179352825856
+            }
+          }
+        }
+      ]
+    ],
+    "corrected_metric_direct": [
+      [
+        {
+          "real": {
+            "lower": {
+              "numerator": 1836713844963673,
+              "denominator": 144115188075855872
+            },
+            "upper": {
+              "numerator": 3680263845958323,
+              "denominator": 288230376151711744
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -8501113359695873,
+              "denominator": 4722366482869645213696
+            },
+            "upper": {
+              "numerator": 8501113359695873,
+              "denominator": 4722366482869645213696
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": -6920153533773169,
+              "denominator": 4611686018427387904
+            },
+            "upper": {
+              "numerator": -6664344421791087,
+              "denominator": 4611686018427387904
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -6607099788365811,
+              "denominator": 36893488147419103232
+            },
+            "upper": {
+              "numerator": -6319381345832945,
+              "denominator": 36893488147419103232
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": 7942403079120787,
+              "denominator": 1152921504606846976
+            },
+            "upper": {
+              "numerator": 7975176954226581,
+              "denominator": 1152921504606846976
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": 4794458258874375,
+              "denominator": 1152921504606846976
+            },
+            "upper": {
+              "numerator": 4819005188579337,
+              "denominator": 1152921504606846976
+            }
+          }
+        }
+      ],
+      [
+        {
+          "real": {
+            "lower": {
+              "numerator": -6920153533773169,
+              "denominator": 4611686018427387904
+            },
+            "upper": {
+              "numerator": -6664344421791087,
+              "denominator": 4611686018427387904
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": 6319381345832945,
+              "denominator": 36893488147419103232
+            },
+            "upper": {
+              "numerator": 6607099788365811,
+              "denominator": 36893488147419103232
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": 4727775781191221,
+              "denominator": 144115188075855872
+            },
+            "upper": {
+              "numerator": 4740130377809463,
+              "denominator": 144115188075855872
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -8761338843103233,
+              "denominator": 1180591620717411303424
+            },
+            "upper": {
+              "numerator": 8761338843103233,
+              "denominator": 1180591620717411303424
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": -2707234824592687,
+              "denominator": 1152921504606846976
+            },
+            "upper": {
+              "numerator": -1319347851136663,
+              "denominator": 576460752303423488
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -191827815565909,
+              "denominator": 18014398509481984
+            },
+            "upper": {
+              "numerator": -3059926710461775,
+              "denominator": 288230376151711744
+            }
+          }
+        }
+      ],
+      [
+        {
+          "real": {
+            "lower": {
+              "numerator": 7942403079120787,
+              "denominator": 1152921504606846976
+            },
+            "upper": {
+              "numerator": 7975176954226581,
+              "denominator": 1152921504606846976
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -4819005188579337,
+              "denominator": 1152921504606846976
+            },
+            "upper": {
+              "numerator": -4794458258874375,
+              "denominator": 1152921504606846976
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": -2707234824592687,
+              "denominator": 1152921504606846976
+            },
+            "upper": {
+              "numerator": -1319347851136663,
+              "denominator": 576460752303423488
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": 3059926710461775,
+              "denominator": 288230376151711744
+            },
+            "upper": {
+              "numerator": 191827815565909,
+              "denominator": 18014398509481984
+            }
+          }
+        },
+        {
+          "real": {
+            "lower": {
+              "numerator": 6917214752157793,
+              "denominator": 576460752303423488
+            },
+            "upper": {
+              "numerator": 6940166699692131,
+              "denominator": 576460752303423488
+            }
+          },
+          "imag": {
+            "lower": {
+              "numerator": -5851540610875393,
+              "denominator": 295147905179352825856
+            },
+            "upper": {
+              "numerator": 5851540610875393,
+              "denominator": 295147905179352825856
+            }
+          }
+        }
+      ]
+    ]
+  },
+  "primary_arb_sylvester": {
+    "leading_principal_minor_rational_lower_bounds": [
+      {
+        "numerator": 1836713844963673,
+        "denominator": 144115188075855872
+      },
+      {
+        "numerator": 7670413282165393,
+        "denominator": 18446744073709551616
+      },
+      {
+        "numerator": 6972712118762551,
+        "denominator": 4722366482869645213696
+      }
+    ],
+    "leading_principal_minor_float_lower_diagnostics": [
+      0.012744762502040438,
+      0.00041581393721926943,
+      1.4765292240778054e-06
+    ]
+  },
+  "status": {
+    "depth15_material_point_local_box_certified": true,
+    "independent_joint_interval_derivatives_attached": false,
+    "global_corrected_metric_positivity_certified": false
+  },
+  "scope": [
+    "This box is the pre-existing 1e-9 level where uniform correction materiality was certified.",
+    "The primary formulas build root images and metric enclosures; a separate joint-system implementation must verify derivatives.",
+    "The theorem is local to one depth-1.5 box, not global."
+  ]
+}

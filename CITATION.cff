@@ -1,32 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this certificate, please cite the archived release and accompanying manuscript."
-title: "A certified GLSM continuation metric chain on the (5,81) Calabi--Yau model"
+message: "If you use this certificate or verifier, please cite the accompanying article and archived release."
+title: "Interval-Certified Positivity of a Corrected GLSM Metric on a Six-Dimensional Product Neighborhood of the Calabi--Yau (5,81)"
 type: software
-version: 1.0.1
-date-released: 2026-08-13
-doi: 10.5281/zenodo.21923926
+version: 2.0.0
+date-released: 2026-08-16
 authors:
   - family-names: Agafonov
     given-names: Evgeniy
-    affiliation: "Independent Researcher, Sochi, Russia"
     email: my@eagafonov.ru
     orcid: "https://orcid.org/0009-0005-9059-5291"
 repository-code: "https://github.com/megazord78-pixel/glsm-continuation-metric-5-81"
-url: "https://doi.org/10.5281/zenodo.21923926"
 license: BSD-3-Clause
-keywords:
-  - Calabi-Yau metric
-  - interval arithmetic
-  - Krawczyk operator
-  - GLSM quotient
-  - computer-assisted proof
-preferred-citation:
-  type: article
-  title: "An Interval-Certified Positivity Theorem for a Corrected GLSM Metric along a Calabi--Yau Continuation Path"
-  authors:
-    - family-names: Agafonov
-      given-names: Evgeniy
-      affiliation: "Independent Researcher, Sochi, Russia"
-      email: my@eagafonov.ru
-      orcid: "https://orcid.org/0009-0005-9059-5291"
-  year: 2026

@@ -1,0 +1,2157 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "generator_sha256": "60d6af1ee2c7fad34c41a2ce2425ea8a253f66f66ac303183ec4020ebb439ebd",
+    "cached_engine_sha256": "166925344cdf933115d60c53d1a1e16b40de6f9a1290d7deb153fe096b8bd4d9",
+    "stratified_corner_replay_sha256": "8066132edf8975ad8b0b330571f307589eb34e52c3969d36ae73d88a392ea39b",
+    "primary_tube_grid_sha256": "dd60cc5c0b4288dabc2f5ef71d11b95292857025f7a38fe0e1c6651bedaedc87",
+    "robust_krawczyk_chain_sha256": "30fb7b8b68e4b2f12167c2f63f62b571c3517751c0a4ea11bd145a7cd605ba68"
+  },
+  "protocol": {
+    "path_indices": [
+      0,
+      77,
+      155,
+      232,
+      309,
+      387,
+      464,
+      542,
+      619,
+      696,
+      774,
+      851,
+      928,
+      1006,
+      1083
+    ],
+    "weak_vertices": [
+      [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ]
+    ],
+    "longitudinal_radius": {
+      "numerator": 7,
+      "denominator": 50000000
+    },
+    "transverse_radius": {
+      "numerator": 1,
+      "denominator": 200000000
+    },
+    "box_count": 30,
+    "worker_count": 6,
+    "cached_engine_enabled": true
+  },
+  "records": [
+    {
+      "sequence": 0,
+      "path_index": 0,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999576431697623
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592994790073673
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049548618108809
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904672304881
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904672304881,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 1506613362857423,
+            "denominator": 144115188075855872
+          },
+          "upper": {
+            "numerator": 4340279450348447,
+            "denominator": 288230376151711744
+          }
+        },
+        {
+          "lower": {
+            "numerator": 2588243512859819,
+            "denominator": 9223372036854775808
+          },
+          "upper": {
+            "numerator": 1275218862229291,
+            "denominator": 2305843009213693952
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6722178546626611,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 868305593813245,
+            "denominator": 147573952589676412928
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 1,
+      "path_index": 0,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.899955842606096
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592993258588732
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049548768616633
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904995213524
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904995213524,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 6026458103790601,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 8680554283645963,
+            "denominator": 576460752303423488
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5176496750797423,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 5100870526144825,
+            "denominator": 9223372036854775808
+          }
+        },
+        {
+          "lower": {
+            "numerator": -1680533277017551,
+            "denominator": 590295810358705651712
+          },
+          "upper": {
+            "numerator": 6946422020306019,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 2,
+      "path_index": 77,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999564628044331
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592995887613807
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049547275594343
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904425383359
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904425383359,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 6026435523846143,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 8680603187224577,
+            "denominator": 576460752303423488
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5176427395246871,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 5100914017613197,
+            "denominator": 9223372036854775808
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6722495528119723,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 1736651890055755,
+            "denominator": 295147905179352825856
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 3,
+      "path_index": 77,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999560705190226
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592995540610725
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049547337655544
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904459490209
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904459490209,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 1506608969225717,
+            "denominator": 144115188075855872
+          },
+          "upper": {
+            "numerator": 4340301434596331,
+            "denominator": 288230376151711744
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5176428060480213,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 1275228406153819,
+            "denominator": 2305843009213693952
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6722492217325549,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 6946605893731339,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 4,
+      "path_index": 155,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999572163286602
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592992446107568
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049548731277799
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904827825934
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904827825934,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 1506604748921205,
+            "denominator": 144115188075855872
+          },
+          "upper": {
+            "numerator": 4340323207656171,
+            "denominator": 288230376151711744
+          }
+        },
+        {
+          "lower": {
+            "numerator": 647046303494305,
+            "denominator": 2305843009213693952
+          },
+          "upper": {
+            "numerator": 2550475683881283,
+            "denominator": 4611686018427387904
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6722800643164983,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 3473382246001971,
+            "denominator": 590295810358705651712
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 5,
+      "path_index": 155,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999572066935104
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.759299243184774
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049548716603515
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.830590481320161
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.830590481320161,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 6026419040617279,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 8680646405718849,
+            "denominator": 576460752303423488
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5176370447467931,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 5100951297827535,
+            "denominator": 9223372036854775808
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6722800368874469,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 6946764343936527,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 6,
+      "path_index": 232,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999554458797934
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592993445462438
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049549217262845
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904842279501
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904842279501,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 3013200799343221,
+            "denominator": 288230376151711744
+          },
+          "upper": {
+            "numerator": 2170172542816571,
+            "denominator": 144115188075855872
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5176311917516561,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 2550494688298437,
+            "denominator": 4611686018427387904
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6723112473813687,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 3473462363268947,
+            "denominator": 590295810358705651712
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 7,
+      "path_index": 232,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999551671741634
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.759299321002586
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049549240126015
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904883865101
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904883865101,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 6026401869975985,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 8680689935045043,
+            "denominator": 576460752303423488
+          }
+        },
+        {
+          "lower": {
+            "numerator": 2588156201216323,
+            "denominator": 9223372036854775808
+          },
+          "upper": {
+            "numerator": 1275247268448849,
+            "denominator": 2305843009213693952
+          }
+        },
+        {
+          "lower": {
+            "numerator": -3361555009320797,
+            "denominator": 1180591620717411303424
+          },
+          "upper": {
+            "numerator": 6946923487873189,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 8,
+      "path_index": 309,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999562728968197
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592992150267963
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.804954888577111
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904849718584
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904849718584,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 1506595927066211,
+            "denominator": 144115188075855872
+          },
+          "upper": {
+            "numerator": 4340367209729223,
+            "denominator": 288230376151711744
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5176252362173601,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 2550513953680169,
+            "denominator": 4611686018427387904
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6723429136897689,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 6947087376692405,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 9,
+      "path_index": 309,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999562373895083
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592992116372952
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049548893690989
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904863224122
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904863224122,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 6026383774038147,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 8680734388762757,
+            "denominator": 576460752303423488
+          }
+        },
+        {
+          "lower": {
+            "numerator": 2588126213838649,
+            "denominator": 9223372036854775808
+          },
+          "upper": {
+            "numerator": 2550513907141533,
+            "denominator": 4611686018427387904
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6723428627845993,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 6947087111124557,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 10,
+      "path_index": 387,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.899951560912049
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592995742012453
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049550104953312
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904856245226
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904856245226,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 6026368675172915,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 8680776152076853,
+            "denominator": 576460752303423488
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5176198532316269,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 637632961110983,
+            "denominator": 1152921504606846976
+          }
+        },
+        {
+          "lower": {
+            "numerator": -1680929905500093,
+            "denominator": 590295810358705651712
+          },
+          "upper": {
+            "numerator": 868404624214033,
+            "denominator": 147573952589676412928
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 11,
+      "path_index": 387,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999513765952015
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592995596443497
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049549974667908
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305905026757796
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305905026757796,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 6026368904641223,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 8680775957920457,
+            "denominator": 576460752303423488
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5176198941834701,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 637632927985629,
+            "denominator": 1152921504606846976
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6723717502178685,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 6947235922916675,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 12,
+      "path_index": 464,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999524582101579
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592994299430119
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049550238113137
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904722315248
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904722315248,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 1506587111081617,
+            "denominator": 144115188075855872
+          },
+          "upper": {
+            "numerator": 4340411370343715,
+            "denominator": 288230376151711744
+          }
+        },
+        {
+          "lower": {
+            "numerator": 2588067041213171,
+            "denominator": 9223372036854775808
+          },
+          "upper": {
+            "numerator": 1275276166782653,
+            "denominator": 2305843009213693952
+          }
+        },
+        {
+          "lower": {
+            "numerator": -420253693861363,
+            "denominator": 147573952589676412928
+          },
+          "upper": {
+            "numerator": 3473705526265909,
+            "denominator": 590295810358705651712
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 13,
+      "path_index": 464,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.899952376390686
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592994224004124
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049550109010304
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904865122575
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904865122575,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 6026348582931025,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 8680822636022355,
+            "denominator": 576460752303423488
+          }
+        },
+        {
+          "lower": {
+            "numerator": 1294033572487515,
+            "denominator": 4611686018427387904
+          },
+          "upper": {
+            "numerator": 5101104502457015,
+            "denominator": 9223372036854775808
+          }
+        },
+        {
+          "lower": {
+            "numerator": -3362028961207369,
+            "denominator": 1180591620717411303424
+          },
+          "upper": {
+            "numerator": 6947410451033017,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 14,
+      "path_index": 542,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999534423039167
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592993027682153
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049549334356605
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904921424526
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904921424526,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 1506582575689857,
+            "denominator": 144115188075855872
+          },
+          "upper": {
+            "numerator": 4340433790394627,
+            "denominator": 288230376151711744
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5176073700727165,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 79705370691251,
+            "denominator": 144115188075855872
+          }
+        },
+        {
+          "lower": {
+            "numerator": -1681095043027007,
+            "denominator": 590295810358705651712
+          },
+          "upper": {
+            "numerator": 6947575961804675,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 15,
+      "path_index": 542,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999533327486947
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592992929730185
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049549338973725
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904929008282
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904929008282,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 11770176595227,
+            "denominator": 1125899906842624
+          },
+          "upper": {
+            "numerator": 4340433750924033,
+            "denominator": 288230376151711744
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5176073879460053,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 1275285893632795,
+            "denominator": 2305843009213693952
+          }
+        },
+        {
+          "lower": {
+            "numerator": -3362189554689419,
+            "denominator": 1180591620717411303424
+          },
+          "upper": {
+            "numerator": 6947575419427447,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 16,
+      "path_index": 619,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999529854273167
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592994717086309
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049547852789511
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904520343445
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904520343445,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 753289102311645,
+            "denominator": 72057594037927936
+          },
+          "upper": {
+            "numerator": 4340455710720885,
+            "denominator": 288230376151711744
+          }
+        },
+        {
+          "lower": {
+            "numerator": 647001877182297,
+            "denominator": 2305843009213693952
+          },
+          "upper": {
+            "numerator": 2550590909312691,
+            "denominator": 4611686018427387904
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6724692725078887,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 3473868278298919,
+            "denominator": 590295810358705651712
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 17,
+      "path_index": 619,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999528372918445
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592994583348683
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.804954788852937
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904527207281
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904527207281,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 6026312978630127,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 8680911296366065,
+            "denominator": 576460752303423488
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5176015267505643,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 5101181633270519,
+            "denominator": 9223372036854775808
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6724691393972413,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 6947735879973795,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 18,
+      "path_index": 696,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999524654464329
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592992482295012
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049549940852976
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904725709449
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904725709449,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 6026294939330275,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 8680955655726821,
+            "denominator": 576460752303423488
+          }
+        },
+        {
+          "lower": {
+            "numerator": 323497218686543,
+            "denominator": 1152921504606846976
+          },
+          "upper": {
+            "numerator": 2550610165037373,
+            "denominator": 4611686018427387904
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6725009271650611,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 868487393445997,
+            "denominator": 147573952589676412928
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 19,
+      "path_index": 696,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999524071398988
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592992418520919
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049549819939648
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904887436912
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904887436912,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 3013147529817633,
+            "denominator": 288230376151711744
+          },
+          "upper": {
+            "numerator": 2170238892627729,
+            "denominator": 144115188075855872
+          }
+        },
+        {
+          "lower": {
+            "numerator": 1293988920477281,
+            "denominator": 4611686018427387904
+          },
+          "upper": {
+            "numerator": 1275305044566833,
+            "denominator": 2305843009213693952
+          }
+        },
+        {
+          "lower": {
+            "numerator": -840626026125779,
+            "denominator": 295147905179352825856
+          },
+          "upper": {
+            "numerator": 3473949302574171,
+            "denominator": 590295810358705651712
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 20,
+      "path_index": 774,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999520690373369
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592992633135924
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049549553663009
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904967023796
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904967023796,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 6026277091372307,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 8681000202235157,
+            "denominator": 576460752303423488
+          }
+        },
+        {
+          "lower": {
+            "numerator": 1293973937724011,
+            "denominator": 4611686018427387904
+          },
+          "upper": {
+            "numerator": 637657383831195,
+            "denominator": 1152921504606846976
+          }
+        },
+        {
+          "lower": {
+            "numerator": -3362663694341099,
+            "denominator": 1180591620717411303424
+          },
+          "upper": {
+            "numerator": 3474031290349067,
+            "denominator": 590295810358705651712
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 21,
+      "path_index": 774,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999518358310254
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.759299244984507
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.804954943067903
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305905165685433
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305905165685433,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 6026277350223337,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 8680999978741227,
+            "denominator": 576460752303423488
+          }
+        },
+        {
+          "lower": {
+            "numerator": 161746756849785,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 2550629388157897,
+            "denominator": 4611686018427387904
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6725324933271753,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 6948061342152605,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 22,
+      "path_index": 851,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999514852781054
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592992174684983
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049549950194086
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904984253419
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904984253419,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 753282263393447,
+            "denominator": 72057594037927936
+          },
+          "upper": {
+            "numerator": 4340522770928285,
+            "denominator": 288230376151711744
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5175833883939505,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 2550649378333869,
+            "denominator": 4611686018427387904
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6725654739347793,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 6948230574148441,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 23,
+      "path_index": 851,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999514646200271
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.759299215173917
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049549966252638
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.830590497761333
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.830590497761333,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 1506564535367579,
+            "denominator": 144115188075855872
+          },
+          "upper": {
+            "numerator": 4340522771312439,
+            "denominator": 288230376151711744
+          }
+        },
+        {
+          "lower": {
+            "numerator": 1293958475821635,
+            "denominator": 4611686018427387904
+          },
+          "upper": {
+            "numerator": 5101298686649479,
+            "denominator": 9223372036854775808
+          }
+        },
+        {
+          "lower": {
+            "numerator": -1681413603699895,
+            "denominator": 590295810358705651712
+          },
+          "upper": {
+            "numerator": 6948230400878227,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 24,
+      "path_index": 928,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.899948283612982
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592994100086778
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049551157961563
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305905160469619
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305905160469619,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 753280588691427,
+            "denominator": 72057594037927936
+          },
+          "upper": {
+            "numerator": 4340542647230349,
+            "denominator": 288230376151711744
+          }
+        },
+        {
+          "lower": {
+            "numerator": 2587891890927609,
+            "denominator": 9223372036854775808
+          },
+          "upper": {
+            "numerator": 5101332560099323,
+            "denominator": 9223372036854775808
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6725927379601961,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 6948371212303085,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 25,
+      "path_index": 928,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999479558791101
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592993837871154
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049551223577441
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305905201187016
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305905201187016,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 3013122509275113,
+            "denominator": 288230376151711744
+          },
+          "upper": {
+            "numerator": 2170271255117813,
+            "denominator": 144115188075855872
+          }
+        },
+        {
+          "lower": {
+            "numerator": 646973043831035,
+            "denominator": 2305843009213693952
+          },
+          "upper": {
+            "numerator": 5101332215350253,
+            "denominator": 9223372036854775808
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6725924572138041,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 6948369797462757,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 26,
+      "path_index": 1006,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999505170446755
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592991848930944
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.804955011532185
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305905008298297
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305905008298297,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 1506555728380965,
+            "denominator": 144115188075855872
+          },
+          "upper": {
+            "numerator": 4340566893299787,
+            "denominator": 288230376151711744
+          }
+        },
+        {
+          "lower": {
+            "numerator": 1293928935168449,
+            "denominator": 4611686018427387904
+          },
+          "upper": {
+            "numerator": 5101375446266755,
+            "denominator": 9223372036854775808
+          }
+        },
+        {
+          "lower": {
+            "numerator": -1681571025541383,
+            "denominator": 590295810358705651712
+          },
+          "upper": {
+            "numerator": 6948553947041267,
+            "denominator": 1180591620717411303424
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 27,
+      "path_index": 1006,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999505149828327
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592991842939941
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049550131837272
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305904998992929
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305904998992929,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 3013111470745419,
+            "denominator": 288230376151711744
+          },
+          "upper": {
+            "numerator": 1085141724199379,
+            "denominator": 72057594037927936
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5175715722222711,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 5101375395098173,
+            "denominator": 9223372036854775808
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6726283979067323,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 1737138468593161,
+            "denominator": 295147905179352825856
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 28,
+      "path_index": 1083,
+      "offset_slots": [
+        1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999502611382684
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592991875006154
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049549909799
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305905187518078
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305905187518078,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 376637890398137,
+            "denominator": 36028797018963968
+          },
+          "upper": {
+            "numerator": 4340588404293065,
+            "denominator": 288230376151711744
+          }
+        },
+        {
+          "lower": {
+            "numerator": 5175658768449147,
+            "denominator": 18446744073709551616
+          },
+          "upper": {
+            "numerator": 5101412684898111,
+            "denominator": 9223372036854775808
+          }
+        },
+        {
+          "lower": {
+            "numerator": -1681647226024427,
+            "denominator": 590295810358705651712
+          },
+          "upper": {
+            "numerator": 1737177666569995,
+            "denominator": 295147905179352825856
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    },
+    {
+      "sequence": 29,
+      "path_index": 1083,
+      "offset_slots": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "root_history": [
+        {
+          "step": 0,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8999498108238794
+        },
+        {
+          "step": 1,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.7592991053730167
+        },
+        {
+          "step": 2,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8049550417961796
+        },
+        {
+          "step": 3,
+          "included_component_count": 81,
+          "maximum_image_radius_ratio": 0.8305905272892056
+        }
+      ],
+      "root_pass": true,
+      "root_q": 0.8305905272892056,
+      "minor_directed_rational_bounds": [
+        {
+          "lower": {
+            "numerator": 6026206639293549,
+            "denominator": 576460752303423488
+          },
+          "upper": {
+            "numerator": 8681176450729071,
+            "denominator": 576460752303423488
+          }
+        },
+        {
+          "lower": {
+            "numerator": 1293914881492411,
+            "denominator": 4611686018427387904
+          },
+          "upper": {
+            "numerator": 5101412245769079,
+            "denominator": 9223372036854775808
+          }
+        },
+        {
+          "lower": {
+            "numerator": -6726585073166435,
+            "denominator": 2361183241434822606848
+          },
+          "upper": {
+            "numerator": 434294296235197,
+            "denominator": 73786976294838206464
+          }
+        }
+      ],
+      "metric_pass": false,
+      "full_pass": false
+    }
+  ],
+  "summary": {
+    "root_pass_count": 30,
+    "metric_pass_count": 0,
+    "passing_path_indices": [],
+    "failing_path_indices": [
+      0,
+      77,
+      155,
+      232,
+      309,
+      387,
+      464,
+      542,
+      619,
+      696,
+      774,
+      851,
+      928,
+      1006,
+      1083
+    ]
+  },
+  "status": {
+    "factor2_weak_vertex_screen_completed": true,
+    "factor2_all_fifteen_strata_weak_vertices_certified": false,
+    "adaptive_full_path_protocol_certified": false,
+    "full_path_corner_replay_completed": false,
+    "publication_release_admitted": false
+  }
+}

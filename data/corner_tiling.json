@@ -1,0 +1,1777 @@
+{
+  "schema_version": 1,
+  "inputs": {
+    "generator_sha256": "a5281bcadc071bcdf085b4df0606017e6eccef4eeef719572cb48be11db79efb",
+    "primary_tube_grid_sha256": "dd60cc5c0b4288dabc2f5ef71d11b95292857025f7a38fe0e1c6651bedaedc87",
+    "weakest_center_local_cube_sha256": "0c8b2798359e245042d1d199289245695ea4efab1997fb25c3c5730899d84438"
+  },
+  "exact_tiling": {
+    "dimension": 5,
+    "corner_alphabet": [
+      -1,
+      1
+    ],
+    "corner_box_count_per_path_center": 32,
+    "corner_boxes": [
+      {
+        "sequence": 0,
+        "offset_slots": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 1,
+        "offset_slots": [
+          -1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 2,
+        "offset_slots": [
+          -1,
+          -1,
+          -1,
+          1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 3,
+        "offset_slots": [
+          -1,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 4,
+        "offset_slots": [
+          -1,
+          -1,
+          1,
+          -1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 5,
+        "offset_slots": [
+          -1,
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 6,
+        "offset_slots": [
+          -1,
+          -1,
+          1,
+          1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 7,
+        "offset_slots": [
+          -1,
+          -1,
+          1,
+          1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 8,
+        "offset_slots": [
+          -1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 9,
+        "offset_slots": [
+          -1,
+          1,
+          -1,
+          -1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 10,
+        "offset_slots": [
+          -1,
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 11,
+        "offset_slots": [
+          -1,
+          1,
+          -1,
+          1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 12,
+        "offset_slots": [
+          -1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 13,
+        "offset_slots": [
+          -1,
+          1,
+          1,
+          -1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 14,
+        "offset_slots": [
+          -1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 15,
+        "offset_slots": [
+          -1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 16,
+        "offset_slots": [
+          1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 17,
+        "offset_slots": [
+          1,
+          -1,
+          -1,
+          -1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 18,
+        "offset_slots": [
+          1,
+          -1,
+          -1,
+          1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 19,
+        "offset_slots": [
+          1,
+          -1,
+          -1,
+          1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 20,
+        "offset_slots": [
+          1,
+          -1,
+          1,
+          -1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 21,
+        "offset_slots": [
+          1,
+          -1,
+          1,
+          -1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 22,
+        "offset_slots": [
+          1,
+          -1,
+          1,
+          1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 23,
+        "offset_slots": [
+          1,
+          -1,
+          1,
+          1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 24,
+        "offset_slots": [
+          1,
+          1,
+          -1,
+          -1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 25,
+        "offset_slots": [
+          1,
+          1,
+          -1,
+          -1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 26,
+        "offset_slots": [
+          1,
+          1,
+          -1,
+          1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 27,
+        "offset_slots": [
+          1,
+          1,
+          -1,
+          1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 28,
+        "offset_slots": [
+          1,
+          1,
+          1,
+          -1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 29,
+        "offset_slots": [
+          1,
+          1,
+          1,
+          -1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 30,
+        "offset_slots": [
+          1,
+          1,
+          1,
+          1,
+          -1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": -1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      },
+      {
+        "sequence": 31,
+        "offset_slots": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "center_offsets": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ],
+        "half_widths": [
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          },
+          {
+            "numerator": 1,
+            "denominator": 200000000
+          }
+        ]
+      }
+    ],
+    "box_half_width": {
+      "numerator": 1,
+      "denominator": 200000000
+    },
+    "covered_cube_lower_per_coordinate": {
+      "numerator": -1,
+      "denominator": 100000000
+    },
+    "covered_cube_upper_per_coordinate": {
+      "numerator": 1,
+      "denominator": 100000000
+    },
+    "coverage_argument": "For each coordinate x in [-2r,2r], choose sign -1 when x<=0 and +1 when x>=0; then |x-sign*r|<=r. Apply independently in five coordinates.",
+    "closed_interval_hyperplanes_are_covered": true
+  },
+  "full_path_cost": {
+    "path_center_count": 1084,
+    "naive_3pow5_box_count": 263412,
+    "optimized_2pow5_box_count": 34688,
+    "exact_reduction_factor": {
+      "numerator": 243,
+      "denominator": 32
+    }
+  },
+  "status": {
+    "exact_2pow5_corner_tiling_protocol_frozen": true,
+    "weakest_center_full_cube_empirically_supported": true,
+    "full_path_corner_replay_completed": false,
+    "full_path_transverse_cube_radius_1e_8_certified": false,
+    "global_corrected_metric_positivity_on_cy_certified": false,
+    "publication_release_admitted": false
+  }
+}
