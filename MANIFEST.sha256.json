@@ -25,6 +25,7 @@
   },
   "files": {
     ".gitattributes": "c1b7f78954ade5fc6ffcb22e7738fd574ec39318ef195c8d258267813a1e48c6",
+    ".github/workflows/verify.yml": "016694c7bda426eb94c5614d5dabe5caa412dd08e0b9ab9bbfb1a9c92d65098f",
     ".gitignore": "bb5bcbb6aa9b8966c21c215bb479844a58d4a296b8d9ecd3689243553cf6256e",
     "CHANGELOG.md": "b80c44b0510e04d7de642d0b222565aebeb10d456bd3a5bd07e773e704360727",
     "CITATION.cff": "dcb96c03f53aa94b1736d3f9281ed8a6e12e0486cca8f1bc8d89da47444cff6a",
